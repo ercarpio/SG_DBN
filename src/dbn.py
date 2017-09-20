@@ -1,8 +1,12 @@
+from itertools import permutations
+
 from pgmpy.models import DynamicBayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.estimators import HillClimbSearchDBN, BicScore
 
+import time
 import pandas as pd
+
 
 # CREATES SIMULATED DBN MODEL
 
@@ -66,19 +70,19 @@ print "Model created successfully: ", dbn.check_model()
 
 
 # CREATES SIMULATED DATA FROM DBN MODEL
-samples = dbn.create_samples(1000)
+t1 = time.time()
+samples = dbn.create_samples(10000)
+t = time.time() - t1
+print t
 
 # LEARNS MODEL FROM SIMULATED DATA
 
 data = pd.DataFrame(samples)
 
-print data.columns[0]
-# data.columns = ['A', 'A_1', 'O', 'O_1', 'R', 'R_1']
-#
-# hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
-# model = hc.estimate(tabu_length=0)
-# model.fit(data)
-#
-# print model.edges()
-# for cpd in model.get_cpds():
-#     print cpd
+hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
+model = hc.estimate(tabu_length=0)
+model.fit(data)
+
+print model.edges()
+for cpd in model.get_cpds():
+    print cpd
