@@ -1,15 +1,13 @@
-from itertools import permutations
-
 from pgmpy.models import DynamicBayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.estimators import HillClimbSearchDBN, BicScore
+from pgmpy.inference import DBNInference
 
 import time
 import pandas as pd
 
 
 # CREATES SIMULATED DBN MODEL
-
 dbn = DynamicBayesianNetwork()
 
 #   Node    Name                Values
@@ -70,21 +68,32 @@ print "Model created successfully: ", dbn.check_model()
 
 
 # CREATES SIMULATED DATA FROM DBN MODEL
-t1 = time.time()
+# t1 = time.time()
 samples = dbn.create_samples(100000)
-t = time.time() - t1
-print t
-
-# LEARNS MODEL FROM SIMULATED DATA
-
+# t = time.time() - t1
+# print t
 data = pd.DataFrame(samples)
 
-hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
-model = hc.estimate(tabu_length=0)
+# LEARNS MODEL FROM SIMULATED DATA
+for i in range(0, 1):
+    hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
+    model = hc.estimate(tabu_length=0)
+    model.fit(data)
+    model.initialize_initial_state()
 
-print model.edges()
-model.fit(data)
+    print "Model learned successfully: ", model.check_model()
 
-print model.edges()
-for cpd in model.get_cpds():
-    print cpd
+    print model.edges()
+    # for cpd in model.get_cpds():
+    #     print cpd
+
+    dbn_infer = DBNInference(model)
+    q = dbn_infer.query(variables=[('A', 1)], evidence={('A', 0): 1,
+                                                        ('R', 0): 0,
+                                                        ('O', 1): 1})
+
+    print q[('A', 1)]
+    q = dbn_infer.query(variables=[('A', 2)], evidence={('A', 1): 1,
+                                                        ('R', 1): 0,
+                                                        ('O', 2): 1})
+    print q[('A', 2)]
