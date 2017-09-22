@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dbn.py" afterPath="$PROJECT_DIR$/src/dbn.py" />
-      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/MLE.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/MLE.py" />
-      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/base.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/base.py" />
-      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/inference/base.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/inference/base.py" />
-      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/inference/dbn_inference.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/inference/dbn_inference.py" />
-      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/DynamicBayesianNetwork.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/DynamicBayesianNetwork.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -326,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506039099114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial changes for inference with DBN">
+      <created>1506111094598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506111094598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -398,7 +399,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updates to avoid column renaming and solve DBN structure learning issues" />
     <MESSAGE value="Completed implementation of structure learning for DBN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed implementation of structure learning for DBN" />
+    <MESSAGE value="Initial changes for inference with DBN" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial changes for inference with DBN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
