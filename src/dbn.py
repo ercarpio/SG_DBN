@@ -71,7 +71,7 @@ print "Model created successfully: ", dbn.check_model()
 
 # CREATES SIMULATED DATA FROM DBN MODEL
 t1 = time.time()
-samples = dbn.create_samples(10000)
+samples = dbn.create_samples(100000)
 t = time.time() - t1
 print t
 
@@ -81,6 +81,8 @@ data = pd.DataFrame(samples)
 
 hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
 model = hc.estimate(tabu_length=0)
+
+print model.edges()
 model.fit(data)
 
 print model.edges()
