@@ -5,36 +5,37 @@ from pgmpy.inference import DBNInference
 
 import time
 import pandas as pd
+import random as rand
 
+create = False
 
 # CREATES SIMULATED DBN MODEL
 dbn = DynamicBayesianNetwork()
 
 #   Node    Name                Values
-#   A       Subject Action      response, no response
 #   R       Robot Action        prompt, fail, reward
+#   A       Subject Action      response, no response
 #   O       Observation         Q values -> prompt, fail, reward
-dbn.add_nodes_from(['A', 'R', 'O'])
+dbn.add_nodes_from(['R', 'A', 'O'])
 
 # Check diagram for details
-dbn.add_edges_from([(('A', 0), ('O', 0)),
-                    (('A', 0), ('R', 0)),
-                    (('A', 0), ('A', 1)),
-                    (('R', 0), ('A', 1)),
-                    (('R', 0), ('R', 1))])
-
-# response
-# no response
-cpd_A = TabularCPD(('A', 0), 2, [[0.5],
-                                 [0.5]])
+dbn.add_edges_from([(('R', 0), ('A', 0)),
+                    (('R', 0), ('R', 1)),
+                    (('A', 0), ('O', 0)),
+                    (('A', 0), ('R', 1))])
 
 # prompt r, nr
 # fail   r, nr
 # reward r, nr
-cpd_R = TabularCPD(('R', 0), 3, [[0.0, 0.9],
-                                 [0.0, 0.1],
-                                 [1.0, 0.0]],
-                   [('A', 0)], [2])
+cpd_R = TabularCPD(('R', 0), 3, [[1.0],
+                                 [0.0],
+                                 [0.0]])
+
+# response      p,  f,  r
+# no response   p,  f,  r
+cpd_A = TabularCPD(('A', 0), 2, [[0.5, 0.0, 0.0],
+                                 [0.5, 1.0, 1.0]],
+                   [('R', 0)], [3])
 
 # Q prompt r, nr
 # Q fail   r, nr
@@ -44,56 +45,87 @@ cpd_O = TabularCPD(('O', 0), 3, [[0.15, 0.70],
                                  [0.80, 0.02]],
                    [('A', 0)], [2])
 
-# response    r-p,  r-f,  r-r,  nr-p,  nr-f,  nr-r
-# no response r-p,  r-f,  r-r,  nr-p,  nr-f,  nr-r
-cpd_A_1 = TabularCPD(('A', 1), 2,
-                     [[0.9, 0.0, 0.0, 0.6, 0.0, 0.0],
-                      [0.1, 1.0, 1.0, 0.4, 1.0, 1.0]],
-                     [('A', 0), ('R', 0)], [2, 3])
-
 # prompt r-p,  r-f,  r-r,  nr-p,  nr-f,  nr-r
 # fail   r-p,  r-f,  r-r,  nr-p,  nr-f,  nr-r
 # reward r-p,  r-f,  r-r,  nr-p,  nr-f,  nr-r
 cpd_R_1 = TabularCPD(('R', 1), 3,
-                     [[0.0, 0.0, 0.0, 0.3, 0.0, 0.0],
-                      [0.0, 0.0, 0.0, 0.7, 1.0, 1.0],
+                     [[0.0, 0.0, 0.0, 0.4, 0.0, 0.0],
+                      [0.0, 0.0, 0.0, 0.6, 1.0, 1.0],
                       [1.0, 1.0, 1.0, 0.0, 0.0, 0.0]],
-                     [('A', 1), ('R', 0)], [2, 3])
+                     [('A', 0), ('R', 0)], [2, 3])
 
-dbn.add_cpds(cpd_A, cpd_A_1, cpd_O, cpd_R, cpd_R_1)
+dbn.add_cpds(cpd_A, cpd_O, cpd_R, cpd_R_1)
 
 dbn.initialize_initial_state()
 
 print "Model created successfully: ", dbn.check_model()
 
 
-# CREATES SIMULATED DATA FROM DBN MODEL
-# t1 = time.time()
-samples = dbn.create_samples(100000)
-# t = time.time() - t1
-# print t
-data = pd.DataFrame(samples)
+# CREATES OR LOADS SIMULATED DATA FROM DBN MODEL
+if create:
+    # t1 = time.time()
+    samples = dbn.create_samples(100000)
+    # t = time.time() - t1
+    # print t
+    data = pd.DataFrame(samples)
+    data.to_csv('data.csv')
+else:
+    data = pd.DataFrame()
+    data = data.from_csv('data.csv')
+    variables = data.columns.values
+    if len(variables) > 0:
+        nvars = list()
+        for var in variables:
+            nvar = var.replace('(', '').replace(')', '').replace('\'', '').replace(' ', '').split(',')
+            nvars.append((nvar[0], int(nvar[1])))
+        data.columns = nvars
 
 # LEARNS MODEL FROM SIMULATED DATA
-for i in range(0, 1):
-    hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
-    model = hc.estimate(tabu_length=0)
-    model.fit(data)
-    model.initialize_initial_state()
+hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
+model = hc.estimate(tabu_length=5)
+model.fit(data)
+model.initialize_initial_state()
 
-    print "Model learned successfully: ", model.check_model()
+print "Model learned successfully: ", model.check_model()
 
-    print model.edges()
-    # for cpd in model.get_cpds():
-    #     print cpd
+print model.edges()
+for cpd in model.get_cpds():
+    print cpd
 
-    dbn_infer = DBNInference(model)
-    q = dbn_infer.query(variables=[('A', 1)], evidence={('A', 0): 1,
-                                                        ('R', 0): 0,
-                                                        ('O', 1): 1})
+dbn_infer = DBNInference(model)
 
-    print q[('A', 1)]
-    q = dbn_infer.query(variables=[('A', 2)], evidence={('A', 1): 1,
-                                                        ('R', 1): 0,
-                                                        ('O', 2): 1})
-    print q[('A', 2)]
+
+def sample(values):
+    index = 0
+    rand_val = rand.random()
+    freq = values[index]
+    while freq < rand_val:
+        index += 1
+        freq += values[index]
+    return index
+
+
+t = 0
+robot = 0
+while True:
+    print 'Robot (prompt=0, fail=1, reward=2): ', robot
+    obs = input('Observation (prompt=0, fail=1, reward=2): ')
+    q = dbn_infer.query(variables=[('A', t)], evidence={('O', t): obs,
+                                                        ('R', t): robot})
+    action = sample(q[('A', t)].values)
+    print 'Action (resp=0, no resp=1): ', action
+    q = dbn_infer.query(variables=[('R', t + 1)], evidence={('O', t): obs,
+                                                            ('A', t): action,
+                                                            ('R', t): robot})
+    robot = sample(q[('R', t + 1)].values)
+
+    if robot != 0:
+        print 'Robot (prompt=0, fail=1, reward=2): ', robot
+        print
+        print
+        print 'Reset'
+        robot = 0
+        t = 0
+    else:
+        t += 1
+    print
