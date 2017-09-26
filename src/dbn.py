@@ -68,10 +68,10 @@ if create:
     # t = time.time() - t1
     # print t
     data = pd.DataFrame(samples)
-    data.to_csv('data.csv')
+    data.to_csv('../data/data.csv')
 else:
     data = pd.DataFrame()
-    data = data.from_csv('data.csv')
+    data = data.from_csv('../data/data.csv')
     variables = data.columns.values
     if len(variables) > 0:
         nvars = list()
