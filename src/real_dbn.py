@@ -1,12 +1,12 @@
 from pgmpy.estimators import HillClimbSearchDBN, BicScore, BdeuScore, BayesianEstimator
 from pgmpy.inference import DBNInference
-from pgmpy.models import DynamicBayesianNetwork as dbn
+from pgmpy.models import DynamicBayesianNetwork
 
 import pandas as pd
-import random as rand
+import numpy as np
 
 data = pd.DataFrame()
-data = data.from_csv('../data/qval_data.csv')
+data = data.from_csv('../data/real_data.csv')
 variables = data.columns.values
 if len(variables) > 0:
     nvars = list()
@@ -20,13 +20,25 @@ if len(variables) > 0:
 hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
 # hc = HillClimbSearchDBN(data, scoring_method=BdeuScore(data))
 print 'Learning model'
-model = hc.estimate(tabu_length=5, max_indegree=2)
-print 'Learning parameters'
-model.fit(data, estimator=BayesianEstimator)
-# model.fit(data, estimator=BayesianEstimator)
-model.initialize_initial_state()
 
-print "Model learned successfully: ", model.check_model()
+# GIVE STRUCTURE LEARNING ALGORITHM A HINT OF THE MODEL
+nodes = hc.state_names.keys()
+start = DynamicBayesianNetwork()
+nodes = set(X[0] for X in nodes)
+start.add_nodes_from_ts(nodes, [0, 1, 2])
+start.add_edge(('R', 0), ('A', 1))
+start.add_edge(('A', 0), ('O', 0))
+start.add_edge(('A', 1), ('O', 1))
+start.add_edge(('A', 0), ('R', 0))
+
+model = hc.estimate(start=start, tabu_length=5, max_indegree=1)
+# model = hc.estimate(tabu_length=5, max_indegree=1)
+print 'Learning parameters'
+model.fit(data)
+# model.fit(data, estimator=BayesianEstimator)
+# model.initialize_initial_state()
+
+# print "Model learned successfully: ", model.check_model()
 
 print model.edges()
 for cpd in model.get_cpds():
@@ -37,7 +49,7 @@ for cpd in model.get_cpds():
 #
 # def sample(values):
 #     index = 0
-#     rand_val = rand.random()
+#     rand_val = np.random.rand(1, 1)[0]
 #     freq = values[index]
 #     while freq < rand_val:
 #         index += 1

@@ -71,50 +71,57 @@ for key in final_samples.keys():
 # FOURTH SWEPT PREPARES SAMPLES FOR OUTPUT
 curr_samples = dict()
 out_samples = list()
+prev_obs = 0
+
+
+def get_obs(value):
+    obs = value
+    if value == '1':
+        obs = 0
+    elif value == '3':
+        obs = 1
+    return obs
+
+
 for key in sorted(final_samples.keys()):
+    sample_values = final_samples[key].split(' ')
+    obs = get_obs(sample_values[len(sample_values) - 2])
     if key[0] == 'compliant' and final_samples[key].endswith('2'):
         if final_samples.get((key[0], key[1], 1), None) is None:
             curr_sample = dict()
-            curr_sample[('R', 0)] = 0
             curr_sample[('A', 0)] = 1
             curr_sample[('O', 0)] = 0
-            curr_sample[('A', 1)] = 2
-            curr_sample[('O', 1)] = 2
+            curr_sample[('R', 0)] = 0
+            curr_sample[('A', 1)] = 0
+            curr_sample[('O', 1)] = obs
             curr_sample[('R', 1)] = 2
             out_samples.append(curr_sample)
         else:
             curr_sample = dict()
-            curr_sample[('R', 0)] = 0
             curr_sample[('A', 0)] = 1
-            curr_sample[('O', 0)] = 0
-            curr_sample[('A', 1)] = 1
-            curr_sample[('O', 1)] = 0
-            curr_sample[('R', 1)] = 0
-            out_samples.append(curr_sample)
-            curr_sample = dict()
+            curr_sample[('O', 0)] = prev_obs
             curr_sample[('R', 0)] = 0
-            curr_sample[('A', 0)] = 1
-            curr_sample[('O', 0)] = 0
             curr_sample[('A', 1)] = 0
-            curr_sample[('O', 1)] = 2
+            curr_sample[('O', 1)] = obs
             curr_sample[('R', 1)] = 2
             out_samples.append(curr_sample)
-    elif key[0] == 'noncompliant' and final_samples[key].endswith('1'):
+    elif final_samples[key].endswith('1'):
         curr_sample = dict()
-        curr_sample[('R', 0)] = 0
         curr_sample[('A', 0)] = 1
         curr_sample[('O', 0)] = 0
+        curr_sample[('R', 0)] = 0
         curr_sample[('A', 1)] = 1
-        curr_sample[('O', 1)] = 0
+        curr_sample[('O', 1)] = obs
         curr_sample[('R', 1)] = 0
+        prev_obs = obs
         out_samples.append(curr_sample)
     elif key[0] == 'noncompliant' and final_samples[key].endswith('3'):
         curr_sample = dict()
-        curr_sample[('R', 0)] = 0
         curr_sample[('A', 0)] = 1
-        curr_sample[('O', 0)] = 0
+        curr_sample[('O', 0)] = prev_obs
+        curr_sample[('R', 0)] = 0
         curr_sample[('A', 1)] = 1
-        curr_sample[('O', 1)] = 1
+        curr_sample[('O', 1)] = obs
         curr_sample[('R', 1)] = 1
         out_samples.append(curr_sample)
 
