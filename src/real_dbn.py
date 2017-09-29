@@ -3,10 +3,13 @@ from pgmpy.inference import DBNInference
 from pgmpy.models import DynamicBayesianNetwork
 
 import pandas as pd
+import plotly.plotly as ply
+from plotly.graph_objs import *
 import numpy as np
+import networkx as nx
 
 data = pd.DataFrame()
-data = data.from_csv('../data/real_data.csv')
+data = data.from_csv('../data/qval_data.csv')
 variables = data.columns.values
 if len(variables) > 0:
     nvars = list()
@@ -25,7 +28,7 @@ print 'Learning model'
 nodes = hc.state_names.keys()
 start = DynamicBayesianNetwork()
 nodes = set(X[0] for X in nodes)
-start.add_nodes_from_ts(nodes, [0, 1, 2])
+start.add_nodes_from_ts(nodes, [0, 1])
 start.add_edge(('R', 0), ('A', 1))
 start.add_edge(('A', 0), ('O', 0))
 start.add_edge(('A', 1), ('O', 1))
@@ -40,9 +43,9 @@ model.fit(data)
 
 # print "Model learned successfully: ", model.check_model()
 
-print model.edges()
-for cpd in model.get_cpds():
-    print cpd
+# print model.edges()
+# for cpd in model.get_cpds():
+#     print cpd
 #
 # dbn_infer = DBNInference(model)
 #
@@ -81,3 +84,9 @@ for cpd in model.get_cpds():
 #     else:
 #         t += 1
 #     print
+
+nx.drawing.nx_pydot.write_dot(model, "test.dot")
+
+
+# https://codeyarns.com/2013/06/24/how-to-convert-dot-file-to-image-format/
+# https://stackoverflow.com/questions/10379448/plotting-directed-graphs-in-python-in-a-way-that-show-all-edges-separately
