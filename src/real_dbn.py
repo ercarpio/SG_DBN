@@ -1,11 +1,12 @@
-from pgmpy.estimators import HillClimbSearchDBN, BicScore
+from pgmpy.estimators import HillClimbSearchDBN, BicScore, BdeuScore, BayesianEstimator
 from pgmpy.inference import DBNInference
+from pgmpy.models import DynamicBayesianNetwork as dbn
 
 import pandas as pd
 import random as rand
 
 data = pd.DataFrame()
-data = data.from_csv('../data/real_data.csv')
+data = data.from_csv('../data/qval_data.csv')
 variables = data.columns.values
 if len(variables) > 0:
     nvars = list()
@@ -17,10 +18,12 @@ if len(variables) > 0:
 
 # LEARNS MODEL FROM REAL DATA
 hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
+# hc = HillClimbSearchDBN(data, scoring_method=BdeuScore(data))
 print 'Learning model'
 model = hc.estimate(tabu_length=5, max_indegree=2)
 print 'Learning parameters'
-model.fit(data)
+model.fit(data, estimator=BayesianEstimator)
+# model.fit(data, estimator=BayesianEstimator)
 model.initialize_initial_state()
 
 print "Model learned successfully: ", model.check_model()

@@ -75,44 +75,44 @@ for key in sorted(final_samples.keys()):
     if key[0] == 'compliant' and final_samples[key].endswith('2'):
         if final_samples.get((key[0], key[1], 1), None) is None:
             curr_sample = dict()
+            curr_sample[('R', 0)] = 0
             curr_sample[('A', 0)] = 1
             curr_sample[('O', 0)] = 0
-            curr_sample[('R', 0)] = 0
-            curr_sample[('A', 1)] = 0
+            curr_sample[('A', 1)] = 2
             curr_sample[('O', 1)] = 2
             curr_sample[('R', 1)] = 2
             out_samples.append(curr_sample)
         else:
             curr_sample = dict()
+            curr_sample[('R', 0)] = 0
             curr_sample[('A', 0)] = 1
             curr_sample[('O', 0)] = 0
-            curr_sample[('R', 0)] = 0
             curr_sample[('A', 1)] = 1
             curr_sample[('O', 1)] = 0
             curr_sample[('R', 1)] = 0
             out_samples.append(curr_sample)
             curr_sample = dict()
+            curr_sample[('R', 0)] = 0
             curr_sample[('A', 0)] = 1
             curr_sample[('O', 0)] = 0
-            curr_sample[('R', 0)] = 0
             curr_sample[('A', 1)] = 0
             curr_sample[('O', 1)] = 2
             curr_sample[('R', 1)] = 2
             out_samples.append(curr_sample)
     elif key[0] == 'noncompliant' and final_samples[key].endswith('1'):
         curr_sample = dict()
+        curr_sample[('R', 0)] = 0
         curr_sample[('A', 0)] = 1
         curr_sample[('O', 0)] = 0
-        curr_sample[('R', 0)] = 0
         curr_sample[('A', 1)] = 1
         curr_sample[('O', 1)] = 0
         curr_sample[('R', 1)] = 0
         out_samples.append(curr_sample)
     elif key[0] == 'noncompliant' and final_samples[key].endswith('3'):
         curr_sample = dict()
+        curr_sample[('R', 0)] = 0
         curr_sample[('A', 0)] = 1
         curr_sample[('O', 0)] = 0
-        curr_sample[('R', 0)] = 0
         curr_sample[('A', 1)] = 1
         curr_sample[('O', 1)] = 1
         curr_sample[('R', 1)] = 1
