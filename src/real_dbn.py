@@ -39,8 +39,8 @@ nodes = set(X[0] for X in nodes)
 start.add_nodes_from_ts(nodes, [0, 1])
 start.add_edge(('A', 1), ('O', 1))
 
-model = hc.estimate(start=start, tabu_length=1, max_indegree=1)
-# model = hc.estimate(tabu_length=1, max_indegree=1)
+model = hc.estimate(start=start, tabu_length=5, max_indegree=2)
+# model = hc.estimate(tabu_length=5, max_indegree=2)
 print 'Learning parameters'
 model.fit(data)
 # model.fit(data, estimator=BayesianEstimator)
@@ -60,7 +60,7 @@ t = 0
 robot = 0
 while True:
     print 'Robot (prompt=0, fail=1, reward=2): ', robot
-    obs = input('Observation (prompt=0, fail=1, reward=2): ')
+    obs = 0#input('Observation (prompt=0, fail=1, reward=2): ')
     q = dbn_infer.query(variables=[('A', t)], evidence={('O', t): obs,
                                                         ('R', t): robot})
     action = sample(q[('A', t)].values)

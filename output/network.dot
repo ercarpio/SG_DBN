@@ -6,8 +6,10 @@ strict digraph  {
 "('R', 0)" [weight=None];
 "('R', 1)" [weight=None];
 "('A', 1)" -> "('O', 1)"  [weight=None];
+"('A', 0)" -> "('A', 1)"  [weight=None];
 "('A', 0)" -> "('R', 1)"  [weight=None];
 "('A', 0)" -> "('O', 0)"  [weight=None];
+"('O', 0)" -> "('R', 1)"  [weight=None];
 "('R', 0)" -> "('A', 0)"  [weight=None];
 "('R', 1)" -> "('A', 1)"  [weight=None];
 }
