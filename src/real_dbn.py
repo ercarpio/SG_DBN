@@ -60,7 +60,7 @@ t = 0
 robot = 0
 while True:
     print 'Robot (prompt=0, fail=1, reward=2): ', robot
-    obs = 0#input('Observation (prompt=0, fail=1, reward=2): ')
+    obs = input('Observation (prompt=0, fail=1, reward=2): ')
     q = dbn_infer.query(variables=[('A', t)], evidence={('O', t): obs,
                                                         ('R', t): robot})
     action = sample(q[('A', t)].values)
