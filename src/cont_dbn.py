@@ -83,7 +83,7 @@ else:
 
 # LEARNS MODEL FROM SIMULATED DATA
 hc = HillClimbSearchDBN(data, scoring_method=BicScore(data))
-model = hc.estimate(tabu_length=0, max_indegree=2)
+model = hc.estimate(tabu_length=10, max_indegree=2)
 model.fit(data)
 model.initialize_initial_state()
 
