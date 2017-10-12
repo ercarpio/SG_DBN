@@ -1,17 +1,16 @@
 strict digraph  {
-"('A', 1)" [weight=None];
-"('A', 0)" [weight=None];
-"('P', 0)" [weight=None];
-"('P', 1)" [weight=None];
-"('R', 0)" [weight=None];
-"('R', 1)" [weight=None];
-"('A', 1)" -> "('P', 1)"  [weight=None];
-"('A', 0)" -> "('P', 0)"  [weight=None];
-"('P', 0)" -> "('A', 1)"  [weight=None];
-"('P', 0)" -> "('R', 1)"  [weight=None];
-"('R', 0)" -> "('R', 1)"  [weight=None];
-"('R', 0)" -> "('P', 0)"  [weight=None];
-"('R', 0)" -> "('A', 0)"  [weight=None];
-"('R', 1)" -> "('A', 1)"  [weight=None];
-"('R', 1)" -> "('P', 1)"  [weight=None];
+"('Reward', 0)" [weight=None];
+"('Reward', 1)" [weight=None];
+"('Abort', 0)" [weight=None];
+"('Abort', 1)" [weight=None];
+"('Prompt', 1)" [weight=None];
+"('Prompt', 0)" [weight=None];
+"('Reward', 0)" -> "('Abort', 0)"  [weight=None];
+"('Reward', 0)" -> "('Prompt', 0)"  [weight=None];
+"('Reward', 1)" -> "('Abort', 1)"  [weight=None];
+"('Reward', 1)" -> "('Prompt', 1)"  [weight=None];
+"('Abort', 0)" -> "('Reward', 1)"  [weight=None];
+"('Prompt', 0)" -> "('Abort', 1)"  [weight=None];
+"('Prompt', 0)" -> "('Prompt', 1)"  [weight=None];
+"('Prompt', 0)" -> "('Reward', 1)"  [weight=None];
 }
