@@ -41,8 +41,3 @@ class DbnCnnInterface(object):
     def set_evidence(self, evidence, id):
         if id == 1:
             evidence[("Prompt", 0)] = 1
-
-
-dbn = DbnCnnInterface()
-print dbn.filter_q_values([0.68141931, 0.3307327, -0.05342126], 0)
-print dbn.filter_q_values([0.68141931, 0.3307327, -0.05342126], 1)

@@ -2,6 +2,7 @@ from pgmpy.estimators import HillClimbSearchDBN, BicScore
 from pgmpy.inference import DBNInference
 from pgmpy.models import DynamicBayesianNetwork
 
+import os
 import pandas as pd
 import networkx as nx
 import numpy as np
@@ -90,6 +91,7 @@ for cpd in model.get_cpds():
 
 # DRAWS RESULTING NETWORK
 nx.drawing.nx_pydot.write_dot(model, "../output/network.dot")
+os.system('dot ../output/network.dot -Tpng -o ../output/foo.png; gnome-open ../output/foo.png')
 
 # OUTPUTS RESULTING NETWORK
 nx.write_gpickle(model, "../output/network.nx")
