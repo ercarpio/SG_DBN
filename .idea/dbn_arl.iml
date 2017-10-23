@@ -9,6 +9,7 @@
     <orderEntry type="module" module-name="temporal_alteration" />
     <orderEntry type="module" module-name="temporal_alteration" />
     <orderEntry type="module" module-name="temporal_np_alteration" />
+    <orderEntry type="module" module-name="temporal_np_alteration" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />
