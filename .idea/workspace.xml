@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="CNN DBN integration toy testing">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbn_arl.iml" afterPath="$PROJECT_DIR$/.idea/dbn_arl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" afterPath="$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" afterPath="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +42,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dqn_model_omega_dbn.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dqn_model_omega_dbn.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
@@ -59,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dqn_model_omega.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dqn_model_omega.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -226,11 +221,6 @@
             <path>
               <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
               <item name="temporal_np_alteration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="temporal_np_alteration" type="462c0819:PsiDirectoryNode" />
-              <item name="np_omega" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -556,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508530353190</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="CNN DBN integration with omega_np model">
+      <created>1508793809125</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1508793809125</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -646,7 +643,8 @@
     <MESSAGE value="CNN - DBN integration&#10;First commit with ITBN" />
     <MESSAGE value="CNN DBN integration&#10;ITBN first steps" />
     <MESSAGE value="CNN DBN integration toy testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="CNN DBN integration toy testing" />
+    <MESSAGE value="CNN DBN integration with omega_np model" />
+    <option name="LAST_COMMIT_MESSAGE" value="CNN DBN integration with omega_np model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1165,22 +1163,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="276" column="0" lean-forward="true" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-          <folding>
-            <element signature="e#100#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="368" column="35" lean-forward="false" selection-start-line="368" selection-start-column="12" selection-end-line="368" selection-end-column="35" />
           <folding>
             <element signature="e#101#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="276" column="0" lean-forward="true" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+          <folding>
+            <element signature="e#100#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
