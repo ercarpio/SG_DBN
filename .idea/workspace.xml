@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="CNN DBN integration with omega_np model">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/config" afterPath="$USER_HOME$/temporal_np_alteration/config" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" afterPath="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py" afterPath="$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" afterPath="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,26 +46,34 @@
     <splitter split-orientation="horizontal" split-proportion="0.68551725">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="dqn_model_omega_dbn.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="dqn_model_omega_dbn.py" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="180">
+                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="model_executor_eval_omega.py" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="777">
+                  <caret line="142" column="23" lean-forward="true" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
                   <folding>
-                    <element signature="e#111#148#0" expanded="true" />
+                    <element signature="e#62#99#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="model_executor_eval_omega.py" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py">
+          <file leaf-file-name="input_pipeline.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/temporal_np_alteration/input_pipeline.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#134#171#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="54">
+                  <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="10" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -74,10 +81,10 @@
           <file leaf-file-name="model_trainer_omega.py" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/temporal_np_alteration/model_trainer_omega.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-270">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="630">
+                  <caret line="50" column="66" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="50" selection-end-column="66" />
                   <folding>
-                    <element signature="e#72#91#0" expanded="true" />
+                    <element signature="e#72#100#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -90,8 +97,8 @@
           <file leaf-file-name="config" pinned="false" current-in-tab="true">
             <entry file="file://$USER_HOME$/temporal_np_alteration/config">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+                <state relative-caret-position="198">
+                  <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -125,11 +132,9 @@
       <find>Print</find>
       <find>reshape</find>
       <find>false</find>
-      <find>FOLDS</find>
       <find>TFRECORD_PATH</find>
       <find>dqn_chkpnt</find>
       <find>alpha</find>
-      <find>NUM_EPOCHS</find>
       <find>BATCH_SIZE</find>
       <find>ts_it</find>
       <find>prep_t</find>
@@ -140,6 +145,8 @@
       <find>datetime</find>
       <find>dateti</find>
       <find>dateti-</find>
+      <find>NUM_EPOCHS</find>
+      <find>FOLDS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,10 +191,10 @@
         <option value="$USER_HOME$/temporal_alteration/toy_model_eval_omega.py" />
         <option value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" />
         <option value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn_integration.py" />
-        <option value="$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py" />
-        <option value="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" />
         <option value="$USER_HOME$/temporal_np_alteration/config" />
+        <option value="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" />
         <option value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" />
+        <option value="$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py" />
       </list>
     </option>
   </component>
@@ -632,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509045748089</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="CNN DBN integration with omega_np model">
+      <created>1509051511423</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1509051511423</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -830,7 +844,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py</url>
-          <line>112</line>
+          <line>79</line>
           <option name="timeStamp" value="343" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1100,14 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/input_pipeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/__future__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1148,39 +1154,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/model_trainer_omega.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#72#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/temporal_np_alteration/models/compression/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#134#171#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,10 +1174,44 @@
     </entry>
     <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_np_alteration/input_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_np_alteration/model_trainer_omega.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="50" column="66" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="50" selection-end-column="66" />
           <folding>
-            <element signature="e#111#148#0" expanded="true" />
+            <element signature="e#72#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_np_alteration/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="142" column="23" lean-forward="true" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="e#62#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
