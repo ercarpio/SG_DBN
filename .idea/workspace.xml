@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="CNN DBN integration with omega_np model">
+    <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py" afterPath="$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" afterPath="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" afterPath="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +20,7 @@
     <SUITE FILE_PATH="coverage/dbn_arl$data_cleaner.coverage" NAME="data_cleaner Coverage Results" MODIFIED="1507037165137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$toy_dqn_model_omega.coverage" NAME="toy_dqn_model_omega Coverage Results" MODIFIED="1508507842346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$toy_model_trainer_omega.coverage" NAME="toy_model_trainer_omega Coverage Results" MODIFIED="1508521014870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$model_trainer_omega.coverage" NAME="model_trainer_omega Coverage Results" MODIFIED="1509048332175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$model_trainer_omega.coverage" NAME="model_trainer_omega Coverage Results" MODIFIED="1509116469989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$toy_model_eval_omega.coverage" NAME="toy_model_eval_omega Coverage Results" MODIFIED="1508781296305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$dbn.coverage" NAME="dbn Coverage Results" MODIFIED="1506660680705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_np.coverage" NAME="dqn_model_omega_np Coverage Results" MODIFIED="1508781329323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
@@ -46,21 +46,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.68551725">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="dqn_model_omega_dbn.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="dqn_model_omega_dbn.py" pinned="false" current-in-tab="true">
             <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="301">
+                  <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#111#148#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="model_executor_eval_omega.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="model_executor_eval_omega.py" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="777">
-                  <caret line="142" column="23" lean-forward="true" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+                <state relative-caret-position="1440">
+                  <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
                   <folding>
                     <element signature="e#62#99#0" expanded="true" />
                   </folding>
@@ -68,21 +70,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="input_pipeline.py" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/temporal_np_alteration/input_pipeline.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="model_trainer_omega.py" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/temporal_np_alteration/model_trainer_omega.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="50" column="66" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="50" selection-end-column="66" />
+                <state relative-caret-position="301">
+                  <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
                   <folding>
                     <element signature="e#72#100#0" expanded="true" />
                   </folding>
@@ -93,12 +85,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="config" pinned="false" current-in-tab="true">
             <entry file="file://$USER_HOME$/temporal_np_alteration/config">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="11" />
+                <state relative-caret-position="108">
+                  <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -191,10 +183,10 @@
         <option value="$USER_HOME$/temporal_alteration/toy_model_eval_omega.py" />
         <option value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" />
         <option value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn_integration.py" />
-        <option value="$USER_HOME$/temporal_np_alteration/config" />
-        <option value="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" />
-        <option value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" />
         <option value="$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py" />
+        <option value="$USER_HOME$/temporal_np_alteration/model_trainer_omega.py" />
+        <option value="$USER_HOME$/temporal_np_alteration/config" />
+        <option value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py" />
       </list>
     </option>
   </component>
@@ -245,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +253,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -646,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509051511423</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="CNN DBN integration with omega_np model">
+      <created>1509052453210</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1509052453210</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -664,27 +663,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1832" y="24" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15422885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.48977336" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35183245" sideWeight="0.5129906" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49474847" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45549738" sideWeight="0.48369265" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19845219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49806523" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.35706806" sideWeight="0.48369265" order="10" side_tool="false" content_ui="tabs" x="992" y="24" width="927" height="1056" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35183245" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.35183245" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" x="1985" y="24" width="1855" height="1056" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49806523" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -847,28 +846,19 @@
           <line>79</line>
           <option name="timeStamp" value="343" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="355" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="359" />
+      <option name="time" value="360" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="reduce(lambda x, y: x*y, shape)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/DynamicBayesianNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/BayesianModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4050">
@@ -977,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="1598" column="0" lean-forward="false" selection-start-line="1598" selection-start-column="0" selection-end-line="1598" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,9 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4575">
           <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-          <folding>
-            <element signature="e#100#137#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,21 +1011,10 @@
     <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/common_shapes.py" />
     <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/variables.py" />
     <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py" />
-    <entry file="file://$USER_HOME$/temporal_alteration/model_trainer_omega.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="251" column="66" lean-forward="false" selection-start-line="251" selection-start-column="61" selection-end-line="251" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cont_dbn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2052">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-972">
           <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,9 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
           <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#76#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,15 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="355" column="0" lean-forward="false" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="1133" column="0" lean-forward="false" selection-start-line="1133" selection-start-column="0" selection-end-line="1133" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,25 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/temporal_alteration/dqn_model_omega.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="368" column="61" lean-forward="true" selection-start-line="368" selection-start-column="46" selection-end-line="368" selection-end-column="61" />
-          <folding>
-            <element signature="e#101#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,30 +1128,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/model_trainer_omega.py">
+    <entry file="file://$USER_HOME$/temporal_np_alteration/config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="50" column="66" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="50" selection-end-column="66" />
-          <folding>
-            <element signature="e#72#100#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/config">
+    <entry file="file://$USER_HOME$/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/math_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="164">
+          <caret line="1458" column="4" lean-forward="false" selection-start-line="1458" selection-start-column="4" selection-end-line="1458" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/temporal_np_alteration/model_executor_eval_omega.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="142" column="23" lean-forward="true" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        <state relative-caret-position="1440">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="e#62#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_alteration/model_trainer_omega.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="292" column="0" lean-forward="true" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_alteration/dqn_model_omega.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="605" column="0" lean-forward="true" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_np_alteration/model_trainer_omega.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#72#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_dbn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+          <folding>
+            <element signature="e#111#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
