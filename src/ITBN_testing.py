@@ -59,19 +59,19 @@ data = pd.DataFrame(raw, columns=['Command_s', 'Command_e', 'Command',
                                   'Prompt_s', 'Prompt_e', 'Prompt',
                                   'Abort_s', 'Abort_e', 'Abort',
                                   'Reward_s', 'Reward_e', 'Reward'])
-state_data = data[['Command', 'Wave', 'Prompt', 'Abort', 'Reward']]
 
 # Create empty model and add event nodes
 model = IntervalTemporalBayesianNetwork()
-model.add_nodes_from(state_data.columns.values)
+model.add_nodes_from(data.columns.values)
 
 # Learn temporal relations from data
 model.learn_temporal_relationships(data)
+data.fillna(0, inplace=True)
 
 # Learn model structure from data and temporal relations
-hc = HillClimbSearchITBN(state_data, scoring_method=BicScore(state_data))
+hc = HillClimbSearchITBN(data, scoring_method=BicScore(data))
 model = hc.estimate(start=model)
-model.add_temporal_nodes()
+# model.add_temporal_nodes()
 
 # Learn model parameters
 # model.fit(list(data[model.nodes()]))
