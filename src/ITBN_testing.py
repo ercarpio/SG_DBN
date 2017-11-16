@@ -1,4 +1,4 @@
-from pgmpy.models import IntervalTemporalBayesianNetwork
+from pgmpy.models import IntervalTemporalBayesianNetwork as ITBN
 from pgmpy.estimators import HillClimbSearchITBN, BicScore
 import pandas as pd
 import numpy as np
@@ -61,12 +61,15 @@ data = pd.DataFrame(raw, columns=['Command_s', 'Command_e', 'Command',
                                   'Reward_s', 'Reward_e', 'Reward'])
 
 # Create empty model and add event nodes
-model = IntervalTemporalBayesianNetwork()
+model = ITBN()
 model.add_nodes_from(data.columns.values)
 
 # Learn temporal relations from data
 model.learn_temporal_relationships(data)
 data.fillna(0, inplace=True)
+for col in list(data.columns.values):
+    if col.endswith(ITBN.start_time_marker) or col.endswith(ITBN.end_time_marker):
+        data.drop(col, axis=1, inplace=True)
 
 # Learn model structure from data and temporal relations
 hc = HillClimbSearchITBN(data, scoring_method=BicScore(data))
