@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/speech_recognition_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbn_arl.iml" afterPath="$PROJECT_DIR$/.idea/dbn_arl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ITBN_testing.py" afterPath="$PROJECT_DIR$/src/ITBN_testing.py" />
-      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" />
-      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,23 +14,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/dbn_arl$data_cleaner.coverage" NAME="data_cleaner Coverage Results" MODIFIED="1507037165137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$cont_dbn.coverage" NAME="cont_dbn Coverage Results" MODIFIED="1507758556962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_eval_omega.coverage" NAME="toy_model_eval_omega Coverage Results" MODIFIED="1508781296305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_dbn.coverage" NAME="dqn_model_omega_dbn Coverage Results" MODIFIED="1508783762572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$toy_dqn_model_omega.coverage" NAME="toy_dqn_model_omega Coverage Results" MODIFIED="1508507842346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$model_trainer_omega.coverage" NAME="model_trainer_omega Coverage Results" MODIFIED="1509128697956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$real_simple_dbn.coverage" NAME="real_simple_dbn Coverage Results" MODIFIED="1507815296618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$ITBN_testing.coverage" NAME="ITBN_testing Coverage Results" MODIFIED="1510787063880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$model_executor_eval_omega.coverage" NAME="model_executor_eval_omega Coverage Results" MODIFIED="1509133307664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$real_dbn.coverage" NAME="real_dbn Coverage Results" MODIFIED="1507312264715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$real_simple_dbn.coverage" NAME="real_simple_dbn Coverage Results" MODIFIED="1507815296618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$data_cleaner.coverage" NAME="data_cleaner Coverage Results" MODIFIED="1507037165137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$toy_dqn_model_omega.coverage" NAME="toy_dqn_model_omega Coverage Results" MODIFIED="1508507842346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_trainer_omega.coverage" NAME="toy_model_trainer_omega Coverage Results" MODIFIED="1508521014870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$model_trainer_omega.coverage" NAME="model_trainer_omega Coverage Results" MODIFIED="1509128697956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_eval_omega.coverage" NAME="toy_model_eval_omega Coverage Results" MODIFIED="1508781296305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$dbn.coverage" NAME="dbn Coverage Results" MODIFIED="1506660680705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_np.coverage" NAME="dqn_model_omega_np Coverage Results" MODIFIED="1508781329323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$model_executor_eval_omega.coverage" NAME="model_executor_eval_omega Coverage Results" MODIFIED="1509133307664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$Doctests_in_HillClimbSearchDBN.coverage" NAME="Doctests in HillClimbSearchDBN Coverage Results" MODIFIED="1506658114335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators" />
+    <SUITE FILE_PATH="coverage/dbn_arl$cont_dbn.coverage" NAME="cont_dbn Coverage Results" MODIFIED="1507758556962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$data_cleaner_simple.coverage" NAME="data_cleaner_simple Coverage Results" MODIFIED="1507769147410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$action_eval_data_loader.coverage" NAME="action_eval_data_loader Coverage Results" MODIFIED="1507905914749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_trainer_omega.coverage" NAME="toy_model_trainer_omega Coverage Results" MODIFIED="1508521014870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_np.coverage" NAME="dqn_model_omega_np Coverage Results" MODIFIED="1508781329323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$dbn_cnn_interface.coverage" NAME="dbn_cnn_interface Coverage Results" MODIFIED="1507840757733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$Doctests_in_HillClimbSearchDBN.coverage" NAME="Doctests in HillClimbSearchDBN Coverage Results" MODIFIED="1506658114335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators" />
+    <SUITE FILE_PATH="coverage/dbn_arl$speech_recognition_test.coverage" NAME="speech_recognition_test Coverage Results" MODIFIED="1511191482722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$ITBN_testing.coverage" NAME="ITBN_testing Coverage Results" MODIFIED="1510945216299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -46,27 +46,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HillClimbSearchITBN.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HillClimbSearchITBN.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-654">
-              <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
               <folding>
                 <element signature="e#22#56#0" expanded="true" />
-                <element signature="e#285#1799#1" expanded="false" />
-                <element signature="e#1948#2440#1" expanded="false" />
-                <element signature="e#6213#8198#1" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reportviews.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/tensorflow/local/lib/python2.7/site-packages/networkx/classes/reportviews.py">
+      <file leaf-file-name="speech_recognition_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/speech_recognition_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="931" column="0" lean-forward="false" selection-start-line="931" selection-start-column="0" selection-end-line="931" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="450">
+              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,22 +83,10 @@
       <file leaf-file-name="IntervalTemporalBayesianNetwork.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="377" column="0" lean-forward="false" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
+            <state relative-caret-position="6858">
+              <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
-                <element signature="e#281#667#1" expanded="false" />
-                <element signature="e#1531#1797#1" expanded="false" />
-                <element signature="e#1918#2305#1" expanded="false" />
-                <element signature="e#2897#3282#1" expanded="false" />
-                <element signature="e#3381#3772#1" expanded="false" />
-                <element signature="e#3887#4032#1" expanded="false" />
-                <element signature="e#4288#4731#1" expanded="false" />
-                <element signature="e#4911#6289#1" expanded="false" />
-                <element signature="e#6944#7176#1" expanded="false" />
-                <element signature="e#8202#8451#1" expanded="false" />
-                <element signature="e#9477#10020#1" expanded="false" />
-                <element signature="e#15147#46699#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,7 +95,7 @@
       <file leaf-file-name="ITBN_testing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ITBN_testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="1350">
               <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
@@ -122,9 +109,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="6372">
               <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
-              <folding>
-                <marker date="1509721731931" expanded="true" signature="11713:11882" ph="&quot;&quot;&quot;Base class for parameter estimators in pgmpy....&quot;&quot;&quot;" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,7 +117,7 @@
       <file leaf-file-name="BicScore.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/BicScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="792">
               <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
@@ -210,7 +195,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -255,8 +240,9 @@
         <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/base.py" />
         <option value="$PROJECT_DIR$/output/itbn.dot" />
         <option value="$PROJECT_DIR$/src/ITBN_testing.py" />
-        <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" />
         <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py" />
+        <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" />
+        <option value="$PROJECT_DIR$/src/speech_recognition_test.py" />
       </list>
     </option>
   </component>
@@ -293,7 +279,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -306,12 +292,31 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbn_arl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbn_arl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/temporal_np_alteration" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -355,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ITBN_testing">
+  <component name="RunManager" selected="Python.speech_recognition_test">
     <configuration name="ITBN_testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,24 +433,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="dqn_model_omega_np" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/temporal_np_alteration" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="temporal_np_alteration" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="model_executor_eval_omega" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
       <output_file path="$USER_HOME$/temporal_np_alteration/test_output/new_weights/omega_0" is_save="true" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -503,23 +490,42 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="speech_recognition_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="speech.json" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dbn_arl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/speech_recognition_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Python.data_cleaner" />
       <item index="1" class="java.lang.String" itemvalue="Python.data_cleaner_simple" />
       <item index="2" class="java.lang.String" itemvalue="Python.real_dbn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dqn_model_omega_np" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dqn_model_omega_dbn" />
-      <item index="5" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
-      <item index="6" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
-      <item index="7" class="java.lang.String" itemvalue="Python.ITBN_testing" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dqn_model_omega_dbn" />
+      <item index="4" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
+      <item index="5" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
+      <item index="6" class="java.lang.String" itemvalue="Python.ITBN_testing" />
+      <item index="7" class="java.lang.String" itemvalue="Python.speech_recognition_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ITBN_testing" />
-        <item index="1" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
-        <item index="2" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dqn_model_omega_dbn" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dqn_model_omega_np" />
+        <item index="0" class="java.lang.String" itemvalue="Python.speech_recognition_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ITBN_testing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
+        <item index="3" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dqn_model_omega_dbn" />
       </list>
     </recent_temporary>
   </component>
@@ -765,20 +771,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1520" y="30" width="1871" height="1086" extended-state="6" />
-    <editor active="true" />
+    <frame x="1520" y="30" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23299453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23272526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.48977336" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35183245" sideWeight="0.5129906" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256059" sideWeight="0.49474847" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.49474847" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.60800844" sideWeight="0.48369265" order="10" side_tool="false" content_ui="tabs" x="634" y="24" width="1286" height="1056" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27529022" sideWeight="0.48369265" order="3" side_tool="false" content_ui="tabs" x="634" y="24" width="1286" height="1056" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.249309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3256059" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" x="1931" y="496" width="1325" height="545" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63141364" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" x="1931" y="496" width="1325" height="545" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33296764" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -959,6 +964,16 @@
           <line>84</line>
           <option name="timeStamp" value="406" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/speech_recognition_test.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/speech_recognition_test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -970,33 +985,15 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="415" />
+      <option name="time" value="420" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="list(self.nodes())" language="Python" />
-        <watch expression="(model as ITBN).edges()" language="Python" />
+        <watch expression="response.result" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cont_dbn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2052">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/real_simple_dbn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/foo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1091,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-663">
           <caret line="565" column="8" lean-forward="false" selection-start-line="565" selection-start-column="8" selection-end-line="565" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,20 +1205,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1103131901/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="4337" column="8" lean-forward="false" selection-start-line="4337" selection-start-column="8" selection-end-line="4337" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1103131901/__builtin__.py" />
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/MLE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#34#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,8 +1233,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6372">
           <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/BicScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITBN_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
           <folding>
-            <marker date="1509721731931" expanded="true" signature="11713:11882" ph="&quot;&quot;&quot;Base class for parameter estimators in pgmpy....&quot;&quot;&quot;" />
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6858">
+          <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/local/lib/python2.7/site-packages/networkx/classes/reportviews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="931" column="0" lean-forward="false" selection-start-line="931" selection-start-column="0" selection-end-line="931" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+          <folding>
+            <element signature="e#22#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1263,63 +1290,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/BicScore.py">
+    <entry file="file://$PROJECT_DIR$/src/speech.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/tensorflow/local/lib/python2.7/site-packages/networkx/classes/reportviews.py">
+    <entry file="file://$PROJECT_DIR$/src/speech_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="931" column="0" lean-forward="false" selection-start-line="931" selection-start-column="0" selection-end-line="931" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITBN_testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="377" column="0" lean-forward="false" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#59#0" expanded="true" />
-            <element signature="e#281#667#1" expanded="false" />
-            <element signature="e#1531#1797#1" expanded="false" />
-            <element signature="e#1918#2305#1" expanded="false" />
-            <element signature="e#2897#3282#1" expanded="false" />
-            <element signature="e#3381#3772#1" expanded="false" />
-            <element signature="e#3887#4032#1" expanded="false" />
-            <element signature="e#4288#4731#1" expanded="false" />
-            <element signature="e#4911#6289#1" expanded="false" />
-            <element signature="e#6944#7176#1" expanded="false" />
-            <element signature="e#8202#8451#1" expanded="false" />
-            <element signature="e#9477#10020#1" expanded="false" />
-            <element signature="e#15147#46699#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
-          <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
-          <folding>
-            <element signature="e#22#56#0" expanded="true" />
-            <element signature="e#285#1799#1" expanded="false" />
-            <element signature="e#1948#2440#1" expanded="false" />
-            <element signature="e#6213#8198#1" expanded="false" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
