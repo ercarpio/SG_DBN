@@ -1,0 +1,81 @@
+../audio_input/test_10/3_z1.flac
+results {
+  alternatives {
+    transcript: "hello my sponsor"
+    confidence: 0.512858688831
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      word: "sponsor"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.894691228867
+    words {
+      start_time {
+        seconds: 12
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.91597366333
+    words {
+      start_time {
+        seconds: 24
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 26
+      }
+      word: "Mostafa"
+    }
+  }
+}

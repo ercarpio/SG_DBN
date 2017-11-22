@@ -1,0 +1,111 @@
+../audio_input/test_02/za1.flac
+results {
+  alternatives {
+    transcript: "hello mr. Arthur"
+    confidence: 0.824086129665
+    words {
+      start_time {
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "mr."
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 900000000
+      }
+      word: "Arthur"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Select Staffing"
+    confidence: 0.454545468092
+    words {
+      start_time {
+        seconds: 15
+      }
+      end_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      word: "Select"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 200000000
+      }
+      word: "Staffing"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 21
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 22
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.79530787468
+    words {
+      start_time {
+        seconds: 27
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 100000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 28
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 400000000
+      }
+      word: "picture"
+    }
+  }
+}

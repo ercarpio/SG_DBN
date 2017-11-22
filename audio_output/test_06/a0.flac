@@ -1,0 +1,89 @@
+../audio_input/test_06/a0.flac
+results {
+  alternatives {
+    transcript: "hello Madison"
+    confidence: 0.964562296867
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "Madison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.976826012135
+    words {
+      start_time {
+        seconds: 7
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 8
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great job"
+    confidence: 0.596255004406
+    words {
+      start_time {
+        seconds: 12
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 12
+        nanos: 700000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 12
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 13
+      }
+      word: "job"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison"
+    confidence: 0.798533499241
+    words {
+      start_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 400000000
+      }
+      word: "Madison"
+    }
+  }
+}

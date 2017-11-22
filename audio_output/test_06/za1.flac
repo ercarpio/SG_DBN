@@ -1,0 +1,124 @@
+../audio_input/test_06/za1.flac
+results {
+  alternatives {
+    transcript: "hello Madison"
+    confidence: 0.990949749947
+    words {
+      start_time {
+        seconds: 1
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "Madison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison say hello"
+    confidence: 0.692963123322
+    words {
+      start_time {
+        seconds: 12
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 600000000
+      }
+      word: "Madison"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 200000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 19
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 19
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Great Dane Madison"
+    confidence: 0.786738395691
+    words {
+      start_time {
+        seconds: 23
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 23
+        nanos: 900000000
+      }
+      word: "Great"
+    }
+    words {
+      start_time {
+        seconds: 23
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 100000000
+      }
+      word: "Dane"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      word: "Madison"
+    }
+  }
+}

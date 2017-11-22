@@ -1,0 +1,84 @@
+../audio_input/test_10/2_z3.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.953476309776
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Hello Kitty hello"
+    confidence: 0.769889295101
+    words {
+      start_time {
+        seconds: 12
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      word: "Kitty"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    confidence: 0.535356283188
+    words {
+      start_time {
+        seconds: 24
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 700000000
+      }
+      word: "apparel"
+    }
+  }
+}

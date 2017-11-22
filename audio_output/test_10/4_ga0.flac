@@ -1,0 +1,90 @@
+../audio_input/test_10/4_ga0.flac
+results {
+  alternatives {
+    transcript: "hello Madison"
+    confidence: 0.933170795441
+    words {
+      start_time {
+        seconds: 1
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 300000000
+      }
+      word: "Madison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 9
+      }
+      end_time {
+        seconds: 9
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.467851936817
+    words {
+      start_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      word: "picture"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison"
+    confidence: 0.924376308918
+    words {
+      start_time {
+        seconds: 17
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 19
+        nanos: 500000000
+      }
+      word: "Madison"
+    }
+  }
+}

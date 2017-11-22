@@ -1,0 +1,168 @@
+../audio_input/test_03/za1.flac
+results {
+  alternatives {
+    transcript: "Christian audio we already did right"
+    confidence: 0.846034288406
+    words {
+      start_time {
+      }
+      end_time {
+        nanos: 500000000
+      }
+      word: "Christian"
+    }
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 1
+      }
+      word: "audio"
+    }
+    words {
+      start_time {
+        seconds: 1
+      }
+      end_time {
+        seconds: 1
+        nanos: 100000000
+      }
+      word: "we"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 300000000
+      }
+      word: "already"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      word: "did"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "right"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello Nana"
+    confidence: 0.852454185486
+    words {
+      start_time {
+        seconds: 5
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 6
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 6
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 7
+        nanos: 600000000
+      }
+      word: "Nana"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.820856690407
+    words {
+      start_time {
+        seconds: 17
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 19
+        nanos: 800000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 19
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 24
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.379110455513
+    words {
+      start_time {
+        seconds: 28
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 200000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 29
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 500000000
+      }
+      word: "picture"
+    }
+  }
+}

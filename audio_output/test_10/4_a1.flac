@@ -1,0 +1,151 @@
+../audio_input/test_10/4_a1.flac
+results {
+  alternatives {
+    transcript: "hello Madison"
+    confidence: 0.976055502892
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 3
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 900000000
+      }
+      word: "Madison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison say hello"
+    confidence: 0.709201574326
+    words {
+      start_time {
+        seconds: 12
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 500000000
+      }
+      word: "Madison"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.950483500957
+    words {
+      start_time {
+        seconds: 20
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Credit Karma"
+    confidence: 0.431213021278
+    words {
+      start_time {
+        seconds: 23
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 300000000
+      }
+      word: "Credit"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      word: "Karma"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Cape Coral Florida"
+    confidence: 0.976413488388
+    words {
+      start_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 600000000
+      }
+      word: "Cape"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 700000000
+      }
+      word: "Coral"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 500000000
+      }
+      word: "Florida"
+    }
+  }
+}

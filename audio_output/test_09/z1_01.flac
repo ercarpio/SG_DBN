@@ -1,0 +1,100 @@
+../audio_input/test_09/z1_01.flac
+results {
+  alternatives {
+    transcript: "hello after I go"
+    confidence: 0.482191115618
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 2
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      word: "after"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 4
+      }
+      word: "I"
+    }
+    words {
+      start_time {
+        seconds: 4
+      }
+      end_time {
+        seconds: 4
+        nanos: 300000000
+      }
+      word: "go"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.929785966873
+    words {
+      start_time {
+        seconds: 12
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    confidence: 0.454295396805
+    words {
+      start_time {
+        seconds: 25
+      }
+      end_time {
+        seconds: 26
+      }
+      word: "apparel"
+    }
+  }
+}

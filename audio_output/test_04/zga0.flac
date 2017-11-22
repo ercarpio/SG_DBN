@@ -1,0 +1,131 @@
+../audio_input/test_04/zga0.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.987834990025
+    words {
+      start_time {
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.941217601299
+    words {
+      start_time {
+        seconds: 8
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 9
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.940725624561
+    words {
+      start_time {
+        seconds: 13
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.976657569408
+    words {
+      start_time {
+        seconds: 20
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 21
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.67591047287
+    words {
+      start_time {
+        seconds: 24
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 600000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 900000000
+      }
+      word: "picture"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    confidence: 0.471208840609
+    words {
+      start_time {
+        seconds: 27
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 500000000
+      }
+      word: "apparel"
+    }
+  }
+}

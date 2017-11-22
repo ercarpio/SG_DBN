@@ -1,0 +1,93 @@
+../audio_input/test_05/zg0.flac
+results {
+  alternatives {
+    transcript: "hello Jaden"
+    confidence: 0.658743202686
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "Jaden"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.86912971735
+    words {
+      start_time {
+        seconds: 11
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 11
+        nanos: 800000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 11
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 12
+        nanos: 100000000
+      }
+      word: "picture"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katy Perry Katy"
+    confidence: 0.610541522503
+    words {
+      start_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      word: "Katy"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 100000000
+      }
+      word: "Perry"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 700000000
+      }
+      word: "Katy"
+    }
+  }
+}

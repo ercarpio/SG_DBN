@@ -1,0 +1,72 @@
+../audio_input/test_10/3_za0.flac
+results {
+  alternatives {
+    transcript: "hello nice camper"
+    confidence: 0.506085693836
+    words {
+      start_time {
+        seconds: 1
+      }
+      end_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      word: "nice"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "camper"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 7
+      }
+      end_time {
+        seconds: 7
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.950011372566
+    words {
+      start_time {
+        seconds: 11
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

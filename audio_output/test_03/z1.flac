@@ -1,0 +1,73 @@
+../audio_input/test_03/z1.flac
+results {
+  alternatives {
+    transcript: "hello Nana."
+    confidence: 0.534047245979
+    words {
+      start_time {
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 800000000
+      }
+      word: "Nana."
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Say hello"
+    confidence: 0.867602944374
+    words {
+      start_time {
+        seconds: 12
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "Say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " comparing"
+    confidence: 0.390667766333
+    words {
+      start_time {
+        seconds: 24
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 400000000
+      }
+      word: "comparing"
+    }
+  }
+}

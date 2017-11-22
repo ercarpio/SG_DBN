@@ -1,0 +1,110 @@
+../audio_input/test_05/zga1.flac
+results {
+  alternatives {
+    transcript: "Hello Kitty"
+    confidence: 0.817931711674
+    words {
+      start_time {
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "Kitty"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Fable 3 hero"
+    confidence: 0.543219387531
+    words {
+      start_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "Fable"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "3"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "hero"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 20
+      }
+      end_time {
+        seconds: 20
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Webster skating"
+    confidence: 0.43257856369
+    words {
+      start_time {
+        seconds: 25
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      word: "Webster"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 900000000
+      }
+      word: "skating"
+    }
+  }
+}

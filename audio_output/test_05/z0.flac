@@ -1,0 +1,81 @@
+../audio_input/test_05/z0.flac
+results {
+  alternatives {
+    transcript: "Hello Kitty"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 100000000
+      }
+      word: "Kitty"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " cable say hello"
+    confidence: 0.748631894588
+    words {
+      start_time {
+        seconds: 13
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      word: "cable"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+      }
+      end_time {
+        seconds: 16
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katie"
+    words {
+      start_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 800000000
+      }
+      word: "Katie"
+    }
+  }
+}

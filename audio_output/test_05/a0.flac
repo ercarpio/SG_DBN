@@ -1,0 +1,69 @@
+../audio_input/test_05/a0.flac
+results {
+  alternatives {
+    transcript: "Hello Kitty"
+    confidence: 0.888479948044
+    words {
+      start_time {
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "Kitty"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.972525000572
+    words {
+      start_time {
+        seconds: 7
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 8
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " picture Trading"
+    confidence: 0.72585105896
+    words {
+      start_time {
+        seconds: 13
+      }
+      end_time {
+        seconds: 14
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 14
+      }
+      end_time {
+        seconds: 16
+        nanos: 400000000
+      }
+      word: "Trading"
+    }
+  }
+}

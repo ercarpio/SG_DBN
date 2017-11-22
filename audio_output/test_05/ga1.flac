@@ -1,0 +1,89 @@
+../audio_input/test_05/ga1.flac
+results {
+  alternatives {
+    transcript: "Hello Katy"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        seconds: 1
+      }
+      end_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 900000000
+      }
+      word: "Katy"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katie Fisher"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        seconds: 12
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      word: "Katie"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "Fisher"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.971813499928
+    words {
+      start_time {
+        seconds: 19
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katie"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        seconds: 25
+      }
+      end_time {
+        seconds: 28
+        nanos: 600000000
+      }
+      word: "Katie"
+    }
+  }
+}

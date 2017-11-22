@@ -1,0 +1,84 @@
+../audio_input/test_05/z1.flac
+results {
+  alternatives {
+    transcript: "Hello Kitty"
+    confidence: 0.887035608292
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "Kitty"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.708437860012
+    words {
+      start_time {
+        seconds: 12
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Carol Channing"
+    confidence: 0.856591105461
+    words {
+      start_time {
+        seconds: 24
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 900000000
+      }
+      word: "Carol"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      word: "Channing"
+    }
+  }
+}

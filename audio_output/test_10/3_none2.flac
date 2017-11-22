@@ -1,0 +1,93 @@
+../audio_input/test_10/3_none2.flac
+results {
+  alternatives {
+    transcript: "hello my star fur"
+    confidence: 0.687238156796
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 3
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 3
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "star"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "fur"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.555368542671
+    words {
+      start_time {
+        seconds: 13
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.973337173462
+    words {
+      start_time {
+        seconds: 25
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 700000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

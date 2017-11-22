@@ -1,0 +1,104 @@
+../audio_input/test_10/1_g1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.920274853706
+    words {
+      start_time {
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.917404472828
+    words {
+      start_time {
+        seconds: 12
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 600000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great job in Spain"
+    confidence: 0.632795095444
+    words {
+      start_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 300000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 700000000
+      }
+      word: "job"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 600000000
+      }
+      word: "in"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      word: "Spain"
+    }
+  }
+}

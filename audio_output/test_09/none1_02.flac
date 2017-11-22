@@ -1,0 +1,92 @@
+../audio_input/test_09/none1_02.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.910953640938
+    words {
+      start_time {
+        seconds: 1
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello hello hello"
+    confidence: 0.807840049267
+    words {
+      start_time {
+        seconds: 12
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 13
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 13
+      }
+      end_time {
+        seconds: 14
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katy Perry"
+    confidence: 0.618947863579
+    words {
+      start_time {
+        seconds: 25
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      word: "Katy"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 500000000
+      }
+      word: "Perry"
+    }
+  }
+}

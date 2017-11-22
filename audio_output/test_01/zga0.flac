@@ -1,0 +1,106 @@
+../audio_input/test_01/zga0.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.928886294365
+    words {
+      start_time {
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 1.0
+    words {
+      start_time {
+        seconds: 8
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 9
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.70684325695
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 300000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.883720517159
+    words {
+      start_time {
+        seconds: 21
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 22
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great job"
+    confidence: 0.584034502506
+    words {
+      start_time {
+        seconds: 26
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      word: "job"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+../audio_input/test_02/g0.flac
+results {
+  alternatives {
+    transcript: "hello Miss Johnson"
+    confidence: 0.91099691391
+    words {
+      start_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "Miss"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 800000000
+      }
+      word: "Johnson"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.788956403732
+    words {
+      start_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 300000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 17
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture nice camper"
+    confidence: 0.59777867794
+    words {
+      start_time {
+        seconds: 27
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 400000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 28
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 700000000
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 28
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 30
+        nanos: 900000000
+      }
+      word: "nice"
+    }
+    words {
+      start_time {
+        seconds: 30
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 31
+        nanos: 500000000
+      }
+      word: "camper"
+    }
+  }
+}

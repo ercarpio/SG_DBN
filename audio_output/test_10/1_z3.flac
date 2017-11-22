@@ -1,0 +1,82 @@
+../audio_input/test_10/1_z3.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.985753059387
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.877402245998
+    words {
+      start_time {
+        seconds: 12
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 300000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 100000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Cape Coral"
+    confidence: 0.880966544151
+    words {
+      start_time {
+        seconds: 22
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 23
+      }
+      word: "Cape"
+    }
+    words {
+      start_time {
+        seconds: 23
+      }
+      end_time {
+        seconds: 23
+        nanos: 200000000
+      }
+      word: "Coral"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+../audio_input/test_10/1_ga1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.948742032051
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " enchilado say hello"
+    confidence: 0.84912186861
+    words {
+      start_time {
+        seconds: 12
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 700000000
+      }
+      word: "enchilado"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.967703402042
+    words {
+      start_time {
+        seconds: 20
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 21
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.722711086273
+    words {
+      start_time {
+        seconds: 24
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 100000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 300000000
+      }
+      word: "picture"
+    }
+  }
+}

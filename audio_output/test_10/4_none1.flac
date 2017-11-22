@@ -1,0 +1,62 @@
+../audio_input/test_10/4_none1.flac
+results {
+  alternatives {
+    transcript: "hello Madison"
+    confidence: 0.948288500309
+    words {
+      start_time {
+        seconds: 1
+      }
+      end_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 900000000
+      }
+      word: "Madison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison"
+    confidence: 0.98308134079
+    words {
+      start_time {
+        seconds: 12
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 600000000
+      }
+      word: "Madison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison"
+    confidence: 0.945203959942
+    words {
+      start_time {
+        seconds: 21
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 23
+        nanos: 600000000
+      }
+      word: "Madison"
+    }
+  }
+}

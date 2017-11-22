@@ -1,0 +1,83 @@
+../audio_input/test_02/none0.flac
+results {
+  alternatives {
+    transcript: "hello Miss Johnson"
+    confidence: 0.870395958424
+    words {
+      start_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 5
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 5
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 6
+        nanos: 400000000
+      }
+      word: "Miss"
+    }
+    words {
+      start_time {
+        seconds: 6
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 6
+        nanos: 600000000
+      }
+      word: "Johnson"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Sports Cafe"
+    confidence: 0.703317344189
+    words {
+      start_time {
+        seconds: 16
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 18
+      }
+      word: "Sports"
+    }
+    words {
+      start_time {
+        seconds: 18
+      }
+      end_time {
+        seconds: 18
+        nanos: 300000000
+      }
+      word: "Cafe"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.988602995872
+    words {
+      start_time {
+        seconds: 29
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 31
+        nanos: 300000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

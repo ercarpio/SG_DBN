@@ -1,0 +1,67 @@
+../audio_input/test_10/3_g0.flac
+results {
+  alternatives {
+    transcript: "hello my star fur"
+    confidence: 0.719020962715
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "star"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "fur"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.923066198826
+    words {
+      start_time {
+        seconds: 12
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 100000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

@@ -1,0 +1,166 @@
+../audio_input/test_02/a1.flac
+results {
+  alternatives {
+    transcript: "hello let\'s confer"
+    confidence: 0.689164876938
+    words {
+      start_time {
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "let\'s"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 900000000
+      }
+      word: "confer"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 8
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 9
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Rick\'s Cafe"
+    confidence: 0.702592134476
+    words {
+      start_time {
+        seconds: 12
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 100000000
+      }
+      word: "Rick\'s"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      word: "Cafe"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 20
+      }
+      end_time {
+        seconds: 20
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great job"
+    confidence: 0.892420232296
+    words {
+      start_time {
+        seconds: 25
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 800000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      word: "job"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Cape Coral Wisconsin"
+    confidence: 0.627501070499
+    words {
+      start_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 600000000
+      }
+      word: "Cape"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 800000000
+      }
+      word: "Coral"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 700000000
+      }
+      word: "Wisconsin"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+../audio_input/test_04/zg1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.824173927307
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.954907357693
+    words {
+      start_time {
+        seconds: 13
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 200000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 17
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 17
+      }
+      end_time {
+        seconds: 17
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}

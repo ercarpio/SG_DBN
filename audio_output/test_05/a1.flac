@@ -1,0 +1,121 @@
+../audio_input/test_05/a1.flac
+results {
+  alternatives {
+    transcript: "Hello Katy"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 3
+      }
+      word: "Katy"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " total a hello"
+    confidence: 0.55932533741
+    words {
+      start_time {
+        seconds: 12
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      word: "total"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      word: "a"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 19
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 19
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture Katie"
+    confidence: 0.794064044952
+    words {
+      start_time {
+        seconds: 23
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 400000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 27
+      }
+      word: "Katie"
+    }
+  }
+}

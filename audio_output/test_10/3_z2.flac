@@ -1,0 +1,69 @@
+../audio_input/test_10/3_z2.flac
+results {
+  alternatives {
+    transcript: "hello nice camper"
+    confidence: 0.54741102457
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 3
+      }
+      word: "nice"
+    }
+    words {
+      start_time {
+        seconds: 3
+      }
+      end_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      word: "camper"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Ritz-Carlton"
+    confidence: 0.802671790123
+    words {
+      start_time {
+        seconds: 12
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "Ritz-Carlton"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.969754040241
+    words {
+      start_time {
+        seconds: 25
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

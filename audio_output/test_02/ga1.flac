@@ -1,0 +1,128 @@
+../audio_input/test_02/ga1.flac
+results {
+  alternatives {
+    transcript: "hello my scarfer"
+    confidence: 0.819231808186
+    words {
+      start_time {
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 800000000
+      }
+      word: "scarfer"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 8
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 8
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Rick\'s Cafe"
+    confidence: 0.571834445
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      word: "Rick\'s"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      word: "Cafe"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 21
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 21
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.860587239265
+    words {
+      start_time {
+        seconds: 28
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 800000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 28
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 29
+      }
+      word: "picture"
+    }
+  }
+}

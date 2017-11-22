@@ -1,0 +1,103 @@
+../audio_input/test_04/g1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.948654830456
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.853136241436
+    words {
+      start_time {
+        seconds: 12
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture good time"
+    confidence: 0.827638983727
+    words {
+      start_time {
+        seconds: 24
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 25
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+      }
+      end_time {
+        seconds: 25
+        nanos: 300000000
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 400000000
+      }
+      word: "good"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 27
+      }
+      word: "time"
+    }
+  }
+}

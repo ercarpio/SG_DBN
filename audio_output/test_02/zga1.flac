@@ -1,0 +1,116 @@
+../audio_input/test_02/zga1.flac
+results {
+  alternatives {
+    transcript: "hello my scarfer"
+    confidence: 0.877216994762
+    words {
+      start_time {
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 800000000
+      }
+      word: "scarfer"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 8
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 9
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " black panther"
+    confidence: 0.443897008896
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      word: "black"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "panther"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 21
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 21
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.97052437067
+    words {
+      start_time {
+        seconds: 28
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 31
+        nanos: 700000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

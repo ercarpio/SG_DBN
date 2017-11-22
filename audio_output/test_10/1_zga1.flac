@@ -1,0 +1,133 @@
+../audio_input/test_10/1_zga1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.950211882591
+    words {
+      start_time {
+        seconds: 1
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " call Gerardo say hello"
+    confidence: 0.927316844463
+    words {
+      start_time {
+        seconds: 12
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 13
+      }
+      word: "call"
+    }
+    words {
+      start_time {
+        seconds: 13
+      }
+      end_time {
+        seconds: 14
+        nanos: 600000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.823734045029
+    words {
+      start_time {
+        seconds: 20
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture in Spain"
+    confidence: 0.753930091858
+    words {
+      start_time {
+        seconds: 23
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 100000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 400000000
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 600000000
+      }
+      word: "in"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 100000000
+      }
+      word: "Spain"
+    }
+  }
+}

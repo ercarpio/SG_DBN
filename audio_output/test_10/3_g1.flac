@@ -1,0 +1,84 @@
+../audio_input/test_10/3_g1.flac
+results {
+  alternatives {
+    transcript: "hello my Stamper"
+    confidence: 0.871809720993
+    words {
+      start_time {
+        seconds: 1
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "Stamper"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.350430816412
+    words {
+      start_time {
+        seconds: 13
+      }
+      end_time {
+        seconds: 14
+        nanos: 200000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.960090398788
+    words {
+      start_time {
+        seconds: 22
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

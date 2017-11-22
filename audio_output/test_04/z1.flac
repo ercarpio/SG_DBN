@@ -1,0 +1,72 @@
+../audio_input/test_04/z1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.931339144707
+    words {
+      start_time {
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.921811103821
+    words {
+      start_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 300000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    words {
+      start_time {
+        seconds: 25
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 200000000
+      }
+      word: "apparel"
+    }
+  }
+}

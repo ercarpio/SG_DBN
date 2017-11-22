@@ -1,0 +1,132 @@
+../audio_input/test_04/ga1.flac
+results {
+  alternatives {
+    transcript: "hello Adele"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "Adele"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.888343751431
+    words {
+      start_time {
+        seconds: 13
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 100000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.980668544769
+    words {
+      start_time {
+        seconds: 21
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 22
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture good time"
+    confidence: 0.954057097435
+    words {
+      start_time {
+        seconds: 26
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 200000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 400000000
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 300000000
+      }
+      word: "good"
+    }
+    words {
+      start_time {
+        seconds: 28
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 900000000
+      }
+      word: "time"
+    }
+  }
+}

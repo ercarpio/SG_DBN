@@ -1,0 +1,45 @@
+../audio_input/test_05/g0.flac
+results {
+  alternatives {
+    transcript: "Hello Kitty"
+    confidence: 0.892907142639
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "Kitty"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katie"
+    confidence: 0.653040289879
+    words {
+      start_time {
+        seconds: 12
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "Katie"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+../audio_input/test_03/a0.flac
+results {
+  alternatives {
+    transcript: "hello Nana."
+    confidence: 0.890734255314
+    words {
+      start_time {
+        seconds: 1
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 400000000
+      }
+      word: "Nana."
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Hello"
+    confidence: 0.961308956146
+    words {
+      start_time {
+        seconds: 8
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 9
+        nanos: 200000000
+      }
+      word: "Hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.87191426754
+    words {
+      start_time {
+        seconds: 12
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 19
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " goodbye"
+    confidence: 0.262322932482
+    words {
+      start_time {
+        seconds: 23
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 500000000
+      }
+      word: "goodbye"
+    }
+  }
+}

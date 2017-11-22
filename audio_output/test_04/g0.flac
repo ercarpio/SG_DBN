@@ -1,0 +1,71 @@
+../audio_input/test_04/g0.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 1
+      }
+      end_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.676340103149
+    words {
+      start_time {
+        seconds: 12
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " weight chart"
+    confidence: 0.732831716537
+    words {
+      start_time {
+        seconds: 24
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 25
+      }
+      word: "weight"
+    }
+    words {
+      start_time {
+        seconds: 25
+      }
+      end_time {
+        seconds: 25
+        nanos: 500000000
+      }
+      word: "chart"
+    }
+  }
+}

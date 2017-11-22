@@ -1,0 +1,71 @@
+../audio_input/test_02/zg0.flac
+results {
+  alternatives {
+    transcript: "hello nice camper"
+    confidence: 0.586952269077
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "nice"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 700000000
+      }
+      word: "camper"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Wisconsin"
+    confidence: 0.85818374157
+    words {
+      start_time {
+        seconds: 13
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 900000000
+      }
+      word: "Wisconsin"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.952307283878
+    words {
+      start_time {
+        seconds: 26
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 30
+        nanos: 300000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

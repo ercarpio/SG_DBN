@@ -1,0 +1,61 @@
+../audio_input/test_05/za0.flac
+results {
+  alternatives {
+    transcript: "Hello Katy"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "Katy"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.960969388485
+    words {
+      start_time {
+        seconds: 7
+      }
+      end_time {
+        seconds: 7
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katie"
+    confidence: 0.567139446735
+    words {
+      start_time {
+        seconds: 10
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 900000000
+      }
+      word: "Katie"
+    }
+  }
+}
