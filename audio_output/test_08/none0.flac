@@ -1,0 +1,84 @@
+../audio_input/test_08/none0.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.965003490448
+    words {
+      start_time {
+        seconds: 1
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 3
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello hello hello"
+    confidence: 0.783149421215
+    words {
+      start_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    confidence: 0.277126789093
+    words {
+      start_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 700000000
+      }
+      word: "apparel"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+../audio_input/test_10/1_g0.flac
+results {
+  alternatives {
+    transcript: "hello after I go"
+    confidence: 0.889894545078
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 3
+      }
+      word: "after"
+    }
+    words {
+      start_time {
+        seconds: 3
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "I"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 700000000
+      }
+      word: "go"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.548532366753
+    words {
+      start_time {
+        seconds: 12
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 100000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 300000000
+      }
+      word: "picture"
+    }
+  }
+}

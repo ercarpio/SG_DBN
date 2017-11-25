@@ -1,0 +1,73 @@
+../audio_input/test_07/none5.flac
+results {
+  alternatives {
+    transcript: "hello mr. Arthur"
+    confidence: 0.701576769352
+    words {
+      start_time {
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "mr."
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 900000000
+      }
+      word: "Arthur"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        seconds: 13
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.905705809593
+    words {
+      start_time {
+        seconds: 26
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 400000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

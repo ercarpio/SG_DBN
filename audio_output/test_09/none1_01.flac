@@ -1,0 +1,93 @@
+../audio_input/test_09/none1_01.flac
+results {
+  alternatives {
+    transcript: "hello and Sheridan"
+    confidence: 0.538251936436
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+      }
+      word: "and"
+    }
+    words {
+      start_time {
+        seconds: 3
+      }
+      end_time {
+        seconds: 3
+        nanos: 900000000
+      }
+      word: "Sheridan"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.887052297592
+    words {
+      start_time {
+        seconds: 12
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    confidence: 0.783308029175
+    words {
+      start_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 700000000
+      }
+      word: "apparel"
+    }
+  }
+}

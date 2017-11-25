@@ -1,0 +1,58 @@
+../audio_input/test_10/1_z1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.915519952774
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.863881289959
+    words {
+      start_time {
+        seconds: 12
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    confidence: 0.334260135889
+    words {
+      start_time {
+        seconds: 25
+      }
+      end_time {
+        seconds: 26
+      }
+      word: "apparel"
+    }
+  }
+}

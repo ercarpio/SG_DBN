@@ -1,0 +1,95 @@
+../audio_input/test_02/none1.flac
+results {
+  alternatives {
+    transcript: "hello my Stamper"
+    confidence: 0.850816011429
+    words {
+      start_time {
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 200000000
+      }
+      word: "Stamper"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Wisconsin say hello"
+    confidence: 0.812954902649
+    words {
+      start_time {
+        seconds: 14
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 400000000
+      }
+      word: "Wisconsin"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 900000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.852757036686
+    words {
+      start_time {
+        seconds: 27
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 300000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

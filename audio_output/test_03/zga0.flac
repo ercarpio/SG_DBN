@@ -1,0 +1,149 @@
+../audio_input/test_03/zga0.flac
+results {
+  alternatives {
+    transcript: "hello Nana."
+    confidence: 0.584978759289
+    words {
+      start_time {
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "Nana."
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 7
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 8
+        nanos: 100000000
+      }
+      word: "Hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.893563270569
+    words {
+      start_time {
+        seconds: 12
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 20
+      }
+      end_time {
+        seconds: 20
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture good time monitors"
+    confidence: 0.668623447418
+    words {
+      start_time {
+        seconds: 24
+      }
+      end_time {
+        seconds: 24
+        nanos: 600000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 900000000
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 100000000
+      }
+      word: "good"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      word: "time"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 800000000
+      }
+      word: "monitors"
+    }
+  }
+}

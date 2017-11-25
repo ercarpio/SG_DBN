@@ -1,0 +1,45 @@
+../audio_input/test_04/zg0.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Adele hello"
+    confidence: 0.768163383007
+    words {
+      start_time {
+        seconds: 12
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 500000000
+      }
+      word: "Adele"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}

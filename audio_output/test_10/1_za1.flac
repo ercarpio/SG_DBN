@@ -1,0 +1,90 @@
+../audio_input/test_10/1_za1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.892809450626
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.903441846371
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 100000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.972048044205
+    words {
+      start_time {
+        seconds: 20
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " goodbye"
+    confidence: 0.239748880267
+    words {
+      start_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 800000000
+      }
+      word: "goodbye"
+    }
+  }
+}

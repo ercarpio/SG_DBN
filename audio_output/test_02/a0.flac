@@ -1,0 +1,156 @@
+../audio_input/test_02/a0.flac
+results {
+  alternatives {
+    transcript: "hello Miss Johnson"
+    confidence: 0.56661605835
+    words {
+      start_time {
+        seconds: 1
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 4
+      }
+      word: "Miss"
+    }
+    words {
+      start_time {
+        seconds: 4
+      }
+      end_time {
+        seconds: 4
+        nanos: 200000000
+      }
+      word: "Johnson"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987520456314
+    words {
+      start_time {
+        seconds: 8
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 9
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Rick Harrison"
+    confidence: 0.557865381241
+    words {
+      start_time {
+        seconds: 14
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      word: "Rick"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 300000000
+      }
+      word: "Harrison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 21
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 21
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.919024825096
+    words {
+      start_time {
+        seconds: 26
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 400000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 700000000
+      }
+      word: "picture"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " comparing Wisconsin"
+    confidence: 0.504211246967
+    words {
+      start_time {
+        seconds: 28
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 900000000
+      }
+      word: "comparing"
+    }
+    words {
+      start_time {
+        seconds: 29
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 31
+        nanos: 100000000
+      }
+      word: "Wisconsin"
+    }
+  }
+}

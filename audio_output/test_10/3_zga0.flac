@@ -1,0 +1,72 @@
+../audio_input/test_10/3_zga0.flac
+results {
+  alternatives {
+    transcript: "hello let\'s confer"
+    confidence: 0.564144790173
+    words {
+      start_time {
+        seconds: 1
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "let\'s"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "confer"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 7
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 7
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.971626520157
+    words {
+      start_time {
+        seconds: 11
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 600000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

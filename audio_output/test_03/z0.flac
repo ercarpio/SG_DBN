@@ -1,0 +1,82 @@
+../audio_input/test_03/z0.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.982915699482
+    words {
+      start_time {
+        seconds: 1
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.850793838501
+    words {
+      start_time {
+        seconds: 14
+      }
+      end_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Cape Coral Florida"
+    confidence: 0.874513685703
+    words {
+      start_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 800000000
+      }
+      word: "Cape"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 28
+      }
+      word: "Coral"
+    }
+    words {
+      start_time {
+        seconds: 28
+      }
+      end_time {
+        seconds: 28
+        nanos: 700000000
+      }
+      word: "Florida"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+../audio_input/test_07/z0.flac
+results {
+  alternatives {
+    transcript: "hello let\'s confer"
+    confidence: 0.949740886688
+    words {
+      start_time {
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      word: "let\'s"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "confer"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Rick Harrison"
+    confidence: 0.587287425995
+    words {
+      start_time {
+        seconds: 12
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 300000000
+      }
+      word: "Rick"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 800000000
+      }
+      word: "Harrison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.947938382626
+    words {
+      start_time {
+        seconds: 23
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 700000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

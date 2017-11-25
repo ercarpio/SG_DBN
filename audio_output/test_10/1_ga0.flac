@@ -1,0 +1,62 @@
+../audio_input/test_10/1_ga0.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.955376982689
+    words {
+      start_time {
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.965456306934
+    words {
+      start_time {
+        seconds: 9
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 9
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.742722570896
+    words {
+      start_time {
+        seconds: 12
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 500000000
+      }
+      word: "picture"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+../audio_input/test_01/g0.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.993051528931
+    words {
+      start_time {
+        seconds: 1
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.917843699455
+    words {
+      start_time {
+        seconds: 13
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great job"
+    confidence: 0.825774312019
+    words {
+      start_time {
+        seconds: 25
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 900000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 200000000
+      }
+      word: "job"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel"
+    confidence: 0.549954593182
+    words {
+      start_time {
+        seconds: 28
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 200000000
+      }
+      word: "apparel"
+    }
+  }
+}

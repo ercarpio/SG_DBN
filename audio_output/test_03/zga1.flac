@@ -1,0 +1,98 @@
+../audio_input/test_03/zga1.flac
+results {
+  alternatives {
+    transcript: "hello Nana."
+    confidence: 0.813270747662
+    words {
+      start_time {
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 4
+      }
+      word: "Nana."
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Say hello"
+    confidence: 0.858230233192
+    words {
+      start_time {
+        seconds: 14
+      }
+      end_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      word: "Say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 21
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 21
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.425675868988
+    words {
+      start_time {
+        seconds: 26
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 27
+      }
+      word: "picture"
+    }
+  }
+}

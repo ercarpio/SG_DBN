@@ -1,0 +1,95 @@
+../audio_input/test_05/none0.flac
+results {
+  alternatives {
+    transcript: "Hello Kitty"
+    confidence: 0.866739153862
+    words {
+      start_time {
+        seconds: 1
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 200000000
+      }
+      word: "Kitty"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katy Perry hair"
+    confidence: 0.707953035831
+    words {
+      start_time {
+        seconds: 14
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      word: "Katy"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 600000000
+      }
+      word: "Perry"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 17
+      }
+      word: "hair"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " apparel Trading"
+    confidence: 0.782384872437
+    words {
+      start_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      word: "apparel"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 200000000
+      }
+      word: "Trading"
+    }
+  }
+}

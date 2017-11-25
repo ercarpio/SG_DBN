@@ -1,0 +1,82 @@
+../audio_input/test_05/none3.flac
+results {
+  alternatives {
+    transcript: "Hello Katy"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "Katy"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.859547257423
+    words {
+      start_time {
+        seconds: 13
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " comparing cheating"
+    confidence: 0.848026990891
+    words {
+      start_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      word: "comparing"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 200000000
+      }
+      word: "cheating"
+    }
+  }
+}

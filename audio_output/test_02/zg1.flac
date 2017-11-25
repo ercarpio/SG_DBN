@@ -1,0 +1,122 @@
+../audio_input/test_02/zg1.flac
+results {
+  alternatives {
+    transcript: "hello my star fur"
+    confidence: 0.813609361649
+    words {
+      start_time {
+        seconds: 1
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 100000000
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 4
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 500000000
+      }
+      word: "star"
+    }
+    words {
+      start_time {
+        seconds: 4
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 800000000
+      }
+      word: "fur"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Rick\'s Cafe"
+    confidence: 0.454545468092
+    words {
+      start_time {
+        seconds: 14
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "Rick\'s"
+    }
+    words {
+      start_time {
+        seconds: 16
+      }
+      end_time {
+        seconds: 16
+        nanos: 400000000
+      }
+      word: "Cafe"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.853306114674
+    words {
+      start_time {
+        seconds: 28
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 300000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 29
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 600000000
+      }
+      word: "picture"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.943341374397
+    words {
+      start_time {
+        seconds: 30
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 32
+        nanos: 700000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

@@ -1,0 +1,140 @@
+../audio_input/test_03/ga0.flac
+results {
+  alternatives {
+    transcript: "hello not a terrorist"
+    confidence: 0.683510184288
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "not"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "a"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 700000000
+      }
+      word: "terrorist"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.972887456417
+    words {
+      start_time {
+        seconds: 7
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 8
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.878093957901
+    words {
+      start_time {
+        seconds: 13
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.970266401768
+    words {
+      start_time {
+        seconds: 20
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.540314793587
+    words {
+      start_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 400000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 700000000
+      }
+      word: "picture"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+../audio_input/test_01/none0.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.982056498528
+    words {
+      start_time {
+        seconds: 1
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello hello hello"
+    confidence: 0.784424006939
+    words {
+      start_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 17
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 17
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Chris Brown"
+    confidence: 0.402594268322
+    words {
+      start_time {
+        seconds: 28
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 100000000
+      }
+      word: "Chris"
+    }
+    words {
+      start_time {
+        seconds: 29
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 600000000
+      }
+      word: "Brown"
+    }
+  }
+}

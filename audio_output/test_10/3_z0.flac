@@ -1,0 +1,136 @@
+../audio_input/test_10/3_z0.flac
+results {
+  alternatives {
+    transcript: "hello my star fur"
+    confidence: 0.751523077488
+    words {
+      start_time {
+        seconds: 1
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+      }
+      word: "my"
+    }
+    words {
+      start_time {
+        seconds: 3
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "star"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "fur"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Christopher say hello"
+    confidence: 0.636898100376
+    words {
+      start_time {
+        seconds: 12
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "Christopher"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Katy Perry let\'s confer"
+    confidence: 0.645907104015
+    words {
+      start_time {
+        seconds: 25
+      }
+      end_time {
+        seconds: 25
+        nanos: 600000000
+      }
+      word: "Katy"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 900000000
+      }
+      word: "Perry"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      word: "let\'s"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      word: "confer"
+    }
+  }
+}

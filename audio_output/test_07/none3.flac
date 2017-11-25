@@ -1,0 +1,44 @@
+../audio_input/test_07/none3.flac
+results {
+  alternatives {
+    transcript: "hello Wisconsin"
+    confidence: 0.875463247299
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "Wisconsin"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.602462053299
+    words {
+      start_time {
+        seconds: 25
+      }
+      end_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

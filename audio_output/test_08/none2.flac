@@ -1,0 +1,55 @@
+../audio_input/test_08/none2.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.987130761147
+    words {
+      start_time {
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.73015832901
+    words {
+      start_time {
+        seconds: 13
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+      }
+      word: "hello"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+../audio_input/test_10/2_a1.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.97775888443
+    words {
+      start_time {
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Hello Kitty hello"
+    confidence: 0.538671672344
+    words {
+      start_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 14
+      }
+      word: "Hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+      }
+      end_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      word: "Kitty"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.785736382008
+    words {
+      start_time {
+        seconds: 19
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.73298150301
+    words {
+      start_time {
+        seconds: 23
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 500000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 800000000
+      }
+      word: "picture"
+    }
+  }
+}

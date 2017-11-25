@@ -1,0 +1,100 @@
+../audio_input/test_04/ga0.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.909090936184
+    words {
+      start_time {
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello Adele say hello"
+    confidence: 0.686691761017
+    words {
+      start_time {
+        seconds: 13
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "Adele"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 600000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 21
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 22
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " goodbye"
+    confidence: 0.408406734467
+    words {
+      start_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 500000000
+      }
+      word: "goodbye"
+    }
+  }
+}

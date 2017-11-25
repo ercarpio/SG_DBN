@@ -1,0 +1,92 @@
+../audio_input/test_10/2_none1.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.902193903923
+    words {
+      start_time {
+        seconds: 1
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello hello hello"
+    confidence: 0.798596382141
+    words {
+      start_time {
+        seconds: 12
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 13
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 13
+      }
+      end_time {
+        seconds: 14
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Cape Coral"
+    confidence: 0.236922547221
+    words {
+      start_time {
+        seconds: 25
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      word: "Cape"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 400000000
+      }
+      word: "Coral"
+    }
+  }
+}

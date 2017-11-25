@@ -1,0 +1,149 @@
+../audio_input/test_02/za0.flac
+results {
+  alternatives {
+    transcript: "hello Miss Johnson"
+    confidence: 0.745815515518
+    words {
+      start_time {
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "Miss"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 400000000
+      }
+      word: "Johnson"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 7
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 8
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.760185062885
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 17
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 20
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great job goodbye Mustafa"
+    confidence: 0.824136078358
+    words {
+      start_time {
+        seconds: 26
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 500000000
+      }
+      word: "job"
+    }
+    words {
+      start_time {
+        seconds: 27
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 28
+        nanos: 900000000
+      }
+      word: "goodbye"
+    }
+    words {
+      start_time {
+        seconds: 28
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 30
+        nanos: 400000000
+      }
+      word: "Mustafa"
+    }
+  }
+}

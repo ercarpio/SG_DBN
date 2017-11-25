@@ -1,0 +1,54 @@
+../audio_input/test_07/none1.flac
+results {
+  alternatives {
+    transcript: "hello Miss Johnson"
+    confidence: 0.764194786549
+    words {
+      start_time {
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "Miss"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 100000000
+      }
+      word: "Johnson"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 1.0
+    words {
+      start_time {
+        seconds: 24
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 200000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

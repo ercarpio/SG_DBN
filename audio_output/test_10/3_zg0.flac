@@ -1,0 +1,57 @@
+../audio_input/test_10/3_zg0.flac
+results {
+  alternatives {
+    transcript: "hello next answer"
+    confidence: 0.786082923412
+    words {
+      start_time {
+        seconds: 2
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 4
+        nanos: 700000000
+      }
+      word: "next"
+    }
+    words {
+      start_time {
+        seconds: 4
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 5
+        nanos: 200000000
+      }
+      word: "answer"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.971610665321
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 400000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

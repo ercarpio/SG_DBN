@@ -1,0 +1,111 @@
+../audio_input/test_04/a1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.90712428093
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Gerardo say hello"
+    confidence: 0.912934362888
+    words {
+      start_time {
+        seconds: 13
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      word: "Gerardo"
+    }
+    words {
+      start_time {
+        seconds: 15
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 900000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 20
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 21
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great good fine"
+    confidence: 0.370719105005
+    words {
+      start_time {
+        seconds: 24
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 400000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 800000000
+      }
+      word: "good"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 100000000
+      }
+      word: "fine"
+    }
+  }
+}

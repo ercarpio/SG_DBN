@@ -1,0 +1,123 @@
+../audio_input/test_10/3_ga1.flac
+results {
+  alternatives {
+    transcript: "hello Mike Stanford"
+    confidence: 0.810649871826
+    words {
+      start_time {
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 1
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      word: "Mike"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 600000000
+      }
+      word: "Stanford"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Wisconsin"
+    confidence: 0.850790143013
+    words {
+      start_time {
+        seconds: 12
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 900000000
+      }
+      word: "Wisconsin"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 19
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 20
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture nice camper"
+    confidence: 0.685395359993
+    words {
+      start_time {
+        seconds: 23
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 500000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 24
+        nanos: 800000000
+      }
+      word: "picture"
+    }
+    words {
+      start_time {
+        seconds: 24
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      word: "nice"
+    }
+    words {
+      start_time {
+        seconds: 26
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      word: "camper"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+../audio_input/test_06/ga1.flac
+results {
+  alternatives {
+    transcript: "hello Madison"
+    confidence: 0.936775922775
+    words {
+      start_time {
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "Madison"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison say hello"
+    confidence: 0.809727489948
+    words {
+      start_time {
+        seconds: 12
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      word: "Madison"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.976205408573
+    words {
+      start_time {
+        seconds: 19
+      }
+      end_time {
+        seconds: 19
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.885499238968
+    words {
+      start_time {
+        seconds: 23
+        nanos: 100000000
+      }
+      end_time {
+        seconds: 23
+        nanos: 700000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 23
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 24
+      }
+      word: "picture"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Madison"
+    confidence: 0.900477528572
+    words {
+      start_time {
+        seconds: 25
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 27
+        nanos: 300000000
+      }
+      word: "Madison"
+    }
+  }
+}

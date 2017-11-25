@@ -1,0 +1,83 @@
+../audio_input/test_02/z1.flac
+results {
+  alternatives {
+    transcript: "hello mr. fur"
+    confidence: 0.71311545372
+    words {
+      start_time {
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      word: "mr."
+    }
+    words {
+      start_time {
+        seconds: 3
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 4
+      }
+      word: "fur"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " say hello"
+    confidence: 0.822701334953
+    words {
+      start_time {
+        seconds: 14
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      word: "say"
+    }
+    words {
+      start_time {
+        seconds: 16
+        nanos: 700000000
+      }
+      end_time {
+        seconds: 17
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " Mostafa"
+    confidence: 0.960088789463
+    words {
+      start_time {
+        seconds: 27
+        nanos: 400000000
+      }
+      end_time {
+        seconds: 29
+        nanos: 500000000
+      }
+      word: "Mostafa"
+    }
+  }
+}

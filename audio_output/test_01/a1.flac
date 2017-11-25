@@ -1,0 +1,85 @@
+../audio_input/test_01/a1.flac
+results {
+  alternatives {
+    transcript: "hello"
+    confidence: 0.977992713451
+    words {
+      start_time {
+        seconds: 1
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 3
+        nanos: 200000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello hello hello"
+    confidence: 0.808257818222
+    words {
+      start_time {
+        seconds: 12
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 600000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 14
+        nanos: 800000000
+      }
+      end_time {
+        seconds: 15
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great picture"
+    confidence: 0.666004896164
+    words {
+      start_time {
+        seconds: 24
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 200000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 25
+        nanos: 200000000
+      }
+      end_time {
+        seconds: 25
+        nanos: 500000000
+      }
+      word: "picture"
+    }
+  }
+}

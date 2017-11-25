@@ -1,0 +1,71 @@
+../audio_input/test_10/2_za0.flac
+results {
+  alternatives {
+    transcript: "hello hello"
+    confidence: 0.892156720161
+    words {
+      start_time {
+        nanos: 500000000
+      }
+      end_time {
+        seconds: 2
+      }
+      word: "hello"
+    }
+    words {
+      start_time {
+        seconds: 2
+      }
+      end_time {
+        seconds: 2
+        nanos: 300000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " hello"
+    confidence: 0.987629055977
+    words {
+      start_time {
+        seconds: 7
+        nanos: 900000000
+      }
+      end_time {
+        seconds: 8
+        nanos: 400000000
+      }
+      word: "hello"
+    }
+  }
+}
+results {
+  alternatives {
+    transcript: " great job"
+    confidence: 0.691285312176
+    words {
+      start_time {
+        seconds: 12
+        nanos: 600000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 300000000
+      }
+      word: "great"
+    }
+    words {
+      start_time {
+        seconds: 13
+        nanos: 300000000
+      }
+      end_time {
+        seconds: 13
+        nanos: 800000000
+      }
+      word: "job"
+    }
+  }
+}
