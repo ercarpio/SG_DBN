@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="pgmpy" />
     <orderEntry type="module" module-name="temporal_alteration" />
     <orderEntry type="module" module-name="temporal_np_alteration" />
+    <orderEntry type="module" module-name="rosbag_reader_arl" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

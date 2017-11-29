@@ -2,198 +2,199 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/input_files_notes.ods" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_01/zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_02/zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_03/zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/none.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_04/zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/none3.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_05/zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/none3.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_06/zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none3.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none4.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none5.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none6.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none7.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none8.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/none9.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_07/z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none3.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none4.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none5.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none6.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none7.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_08/none8.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/none0_01.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/none0_03.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/none1_01.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/none1_02.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/none1_03.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/z0_01.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/z0_03.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/z1_01.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/z1_03.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_09/z2_02.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_z2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_z3.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/1_zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_z2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_z3.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_zg1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/2_zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_z0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_z1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_z2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_za0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_za1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_zg0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_zga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/3_zga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_a0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_a1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_g0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_g1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_ga0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_ga1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_none0.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_none1.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audio_output/test_10/4_none2.flac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/.~lock.input_files_notes.ods#" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_01/zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_02/zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/z0-1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_03/zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/none.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_04/zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/none2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/none3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_05/zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/none2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/none3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_06/zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/none9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_07/z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_08/none8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/none0_01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/none0_03.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/none1_01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/none1_02.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/none1_03.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/z0_01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/z0_03.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/z1_01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/z1_03.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_09/z2_02.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_none2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_z2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_z3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/1_zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_none2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_z2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_z3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_zg1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/2_zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_none2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_z0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_z1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_z2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_za0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_za1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_zg0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_zga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/3_zga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_a0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_a1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_g0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_g1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_ga0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_ga1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_none0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_none1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labels/test_10/4_none2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbn_arl.iml" afterPath="$PROJECT_DIR$/.idea/dbn_arl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speech_recognition_test.py" afterPath="$PROJECT_DIR$/src/speech_recognition_test.py" />
+      <change type="MODIFICATION" beforePath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" afterPath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -203,24 +204,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_dbn.coverage" NAME="dqn_model_omega_dbn Coverage Results" MODIFIED="1508783762572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$real_dbn.coverage" NAME="real_dbn Coverage Results" MODIFIED="1507312264715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$real_simple_dbn.coverage" NAME="real_simple_dbn Coverage Results" MODIFIED="1507815296618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$rosbag_reader.coverage" NAME="rosbag_reader Coverage Results" MODIFIED="1511744074151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$data_cleaner.coverage" NAME="data_cleaner Coverage Results" MODIFIED="1507037165137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$toy_dqn_model_omega.coverage" NAME="toy_dqn_model_omega Coverage Results" MODIFIED="1508507842346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_trainer_omega.coverage" NAME="toy_model_trainer_omega Coverage Results" MODIFIED="1508521014870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$model_trainer_omega.coverage" NAME="model_trainer_omega Coverage Results" MODIFIED="1509128697956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_eval_omega.coverage" NAME="toy_model_eval_omega Coverage Results" MODIFIED="1508781296305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$dbn.coverage" NAME="dbn Coverage Results" MODIFIED="1506660680705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_np.coverage" NAME="dqn_model_omega_np Coverage Results" MODIFIED="1508781329323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$model_executor_eval_omega.coverage" NAME="model_executor_eval_omega Coverage Results" MODIFIED="1509133307664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
-    <SUITE FILE_PATH="coverage/dbn_arl$Doctests_in_HillClimbSearchDBN.coverage" NAME="Doctests in HillClimbSearchDBN Coverage Results" MODIFIED="1506658114335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators" />
     <SUITE FILE_PATH="coverage/dbn_arl$cont_dbn.coverage" NAME="cont_dbn Coverage Results" MODIFIED="1507758556962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$speech_recognition_test.coverage" NAME="speech_recognition_test Coverage Results" MODIFIED="1511303373421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_eval_omega.coverage" NAME="toy_model_eval_omega Coverage Results" MODIFIED="1508781296305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_dbn.coverage" NAME="dqn_model_omega_dbn Coverage Results" MODIFIED="1508783762572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$toy_dqn_model_omega.coverage" NAME="toy_dqn_model_omega Coverage Results" MODIFIED="1508507842346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$model_trainer_omega.coverage" NAME="model_trainer_omega Coverage Results" MODIFIED="1509128697956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$real_simple_dbn.coverage" NAME="real_simple_dbn Coverage Results" MODIFIED="1507815296618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$ITBN_testing.coverage" NAME="ITBN_testing Coverage Results" MODIFIED="1510945216299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$model_executor_eval_omega.coverage" NAME="model_executor_eval_omega Coverage Results" MODIFIED="1509133307664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$real_dbn.coverage" NAME="real_dbn Coverage Results" MODIFIED="1507312264715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$dbn.coverage" NAME="dbn Coverage Results" MODIFIED="1506660680705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$data_cleaner_simple.coverage" NAME="data_cleaner_simple Coverage Results" MODIFIED="1507769147410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$action_eval_data_loader.coverage" NAME="action_eval_data_loader Coverage Results" MODIFIED="1507905914749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$toy_model_trainer_omega.coverage" NAME="toy_model_trainer_omega Coverage Results" MODIFIED="1508521014870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
+    <SUITE FILE_PATH="coverage/dbn_arl$dqn_model_omega_np.coverage" NAME="dqn_model_omega_np Coverage Results" MODIFIED="1508781329323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$dbn_cnn_interface.coverage" NAME="dbn_cnn_interface Coverage Results" MODIFIED="1507840757733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$speech_recognition_test.coverage" NAME="speech_recognition_test Coverage Results" MODIFIED="1511303373421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$ITBN_testing.coverage" NAME="ITBN_testing Coverage Results" MODIFIED="1510945216299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$Doctests_in_HillClimbSearchDBN.coverage" NAME="Doctests in HillClimbSearchDBN Coverage Results" MODIFIED="1506658114335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -235,99 +237,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HillClimbSearchITBN.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py">
+      <file leaf-file-name="rosbag_reader.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/catkin_ws/src/rosbag_reader_arl/rosbag_reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+            <state relative-caret-position="433">
+              <caret line="46" column="85" lean-forward="false" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
               <folding>
-                <element signature="e#22#56#0" expanded="true" />
+                <element signature="e#23#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speech_recognition_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/speech_recognition_test.py">
+      <file leaf-file-name="package.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/catkin_ws/src/rosbag_reader_arl/package.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HillClimbSearch.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="-90">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntervalTemporalBayesianNetwork.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/catkin_ws/src/rosbag_reader_arl/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6858">
-              <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
-              <folding>
-                <element signature="e#24#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ITBN_testing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ITBN_testing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6372">
-              <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BicScore.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/BicScore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StructureScore.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/StructureScore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectedGraph.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/base/DirectedGraph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2538">
-              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -430,8 +366,12 @@
         <option value="$PROJECT_DIR$/output/itbn.dot" />
         <option value="$PROJECT_DIR$/src/ITBN_testing.py" />
         <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py" />
-        <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" />
         <option value="$PROJECT_DIR$/src/speech_recognition_test.py" />
+        <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py" />
+        <option value="$PROJECT_DIR$/src/rosbag_reader.py" />
+        <option value="$USER_HOME$/catkin_ws/src/rosbag_reader_arl/package.xml" />
+        <option value="$USER_HOME$/catkin_ws/src/rosbag_reader_arl/CMakeLists.txt" />
+        <option value="$USER_HOME$/catkin_ws/src/rosbag_reader_arl/rosbag_reader.py" />
       </list>
     </option>
   </component>
@@ -442,10 +382,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1520" />
-    <option name="y" value="30" />
-    <option name="width" value="1323" />
-    <option name="height" value="751" />
+    <option name="x" value="1312" />
+    <option name="y" value="559" />
+    <option name="width" value="1321" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -487,12 +427,7 @@
           <expand>
             <path>
               <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dbn_arl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dbn_arl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rosbag_reader_arl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -504,7 +439,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/temporal_np_alteration" />
+    <property name="last_opened_file_path" value="$USER_HOME$/catkin_ws/src/rosbag_reader_arl" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" />
   </component>
@@ -549,7 +484,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.speech_recognition_test">
+  <component name="RunManager" selected="Python.rosbag_reader">
     <configuration name="ITBN_testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -600,24 +535,6 @@
       <module name="dbn_arl" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_cleaner_simple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="dqn_model_omega_dbn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/temporal_np_alteration" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="temporal_np_alteration" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/temporal_np_alteration/abandoned_dqn_model_omega_dbn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -679,6 +596,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="rosbag_reader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dbn_arl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/rosbag_reader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="speech_recognition_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -702,19 +637,19 @@
       <item index="0" class="java.lang.String" itemvalue="Python.data_cleaner" />
       <item index="1" class="java.lang.String" itemvalue="Python.data_cleaner_simple" />
       <item index="2" class="java.lang.String" itemvalue="Python.real_dbn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dqn_model_omega_dbn" />
-      <item index="4" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
-      <item index="5" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
-      <item index="6" class="java.lang.String" itemvalue="Python.ITBN_testing" />
-      <item index="7" class="java.lang.String" itemvalue="Python.speech_recognition_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
+      <item index="4" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ITBN_testing" />
+      <item index="6" class="java.lang.String" itemvalue="Python.speech_recognition_test" />
+      <item index="7" class="java.lang.String" itemvalue="Python.rosbag_reader" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.speech_recognition_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ITBN_testing" />
-        <item index="2" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
-        <item index="3" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dqn_model_omega_dbn" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rosbag_reader" />
+        <item index="1" class="java.lang.String" itemvalue="Python.speech_recognition_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ITBN_testing" />
+        <item index="3" class="java.lang.String" itemvalue="Python.model_executor_eval_omega" />
+        <item index="4" class="java.lang.String" itemvalue="Python.model_trainer_omega" />
       </list>
     </recent_temporary>
   </component>
@@ -967,15 +902,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1520" y="30" width="1857" height="1092" extended-state="6" />
+    <frame x="1417" y="-5" width="1869" height="1085" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23272526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23806912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.48977336" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35183245" sideWeight="0.5129906" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.49474847" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47900465" sideWeight="0.49474847" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27529022" sideWeight="0.48369265" order="3" side_tool="false" content_ui="tabs" x="634" y="24" width="1286" height="1056" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18545838" sideWeight="0.48369265" order="10" side_tool="false" content_ui="tabs" x="634" y="24" width="1286" height="1056" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.249309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1182,26 +1117,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/output/foo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/action_eval">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/temporal_np_alteration/dqn_model_omega_np.py" />
-    <entry file="file:///usr/lib/python2.7/ConfigParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="617" column="0" lean-forward="false" selection-start-line="617" selection-start-column="0" selection-end-line="617" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/__future__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1417,39 +1332,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6372">
-          <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/BicScore.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITBN_testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6858">
-          <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1460,38 +1347,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/speech.json" />
+    <entry file="file://$PROJECT_DIR$/src/speech_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+        <state relative-caret-position="367">
+          <caret line="212" column="23" lean-forward="false" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="23" />
           <folding>
-            <element signature="e#22#56#0" expanded="true" />
+            <element signature="e#22#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="555">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/speech.json">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#59#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITBN_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/speech_recognition_test.py">
+    <entry file="file://$PROJECT_DIR$/src/rosbag_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/catkin_ws/src/rosbag_reader_arl/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/catkin_ws/src/rosbag_reader_arl/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/catkin_ws/src/rosbag_reader_arl/rosbag_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="46" column="85" lean-forward="false" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

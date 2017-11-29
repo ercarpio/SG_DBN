@@ -1,0 +1,8 @@
+command_s 1.669459628
+command_e 3.5
+reward_s 11.485528885
+reward_e 12.5
+abort_s 13.253405433
+abort_e 14.8
+gesture_0_s 7.923822709
+gesture_0_e 9.059625634

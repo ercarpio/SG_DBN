@@ -1,0 +1,10 @@
+command_s 6.717510321
+command_e 9.15
+prompt_s 19.781862844
+prompt_e 22.4
+reward_s 30.493860919
+reward_e 31.5
+abort_s 31.925832558
+abort_e 34.2
+audio_1_s 26.2
+audio_1_e 26.7
