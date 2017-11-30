@@ -1,7 +1,7 @@
 command_s 1.292919459
 command_e 3.75
 prompt_s 13.157222776
-prompt_e 15.9p
+prompt_e 15.9
 reward_s 24.325407725
 reward_e 25.4
 abort_s 26.071892347
