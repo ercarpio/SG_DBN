@@ -3,11 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dbn_arl.iml" filepath="$PROJECT_DIR$/.idea/dbn_arl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itbn_tools/.idea/itbn_tools.iml" filepath="$PROJECT_DIR$/../itbn_tools/.idea/itbn_tools.iml" />
       <module fileurl="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/.idea/pgmpy.iml" filepath="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/.idea/pgmpy.iml" />
-      <module fileurl="file://$USER_HOME$/catkin_ws/src/rosbag_reader_arl/.idea/rosbag_reader_arl.iml" filepath="$USER_HOME$/catkin_ws/src/rosbag_reader_arl/.idea/rosbag_reader_arl.iml" />
       <module fileurl="file://$USER_HOME$/temporal_alteration/.idea/temporal_alteration.iml" filepath="$USER_HOME$/temporal_alteration/.idea/temporal_alteration.iml" />
       <module fileurl="file://$USER_HOME$/temporal_np_alteration/.idea/temporal_np_alteration.iml" filepath="$USER_HOME$/temporal_np_alteration/.idea/temporal_np_alteration.iml" />
-      <module fileurl="file://$USER_HOME$/temporal_np_alteration/.idea/temporal_np_combination.iml" filepath="$USER_HOME$/temporal_np_alteration/.idea/temporal_np_combination.iml" />
     </modules>
   </component>
 </project>
