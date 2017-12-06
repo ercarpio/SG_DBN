@@ -9,6 +9,9 @@
     <orderEntry type="module" module-name="temporal_np_alteration" />
     <orderEntry type="module" module-name="rosbag_reader_arl" />
     <orderEntry type="module" module-name="itbn_tools" />
+    <orderEntry type="module" module-name="itbn_classifier" />
+    <orderEntry type="module" module-name="itbn_classifier" />
+    <orderEntry type="module" module-name="itbn_classifier" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

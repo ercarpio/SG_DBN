@@ -8,3 +8,7 @@ abort_s 24.776644023
 abort_e 26.4
 gesture_1_s 18.447109007
 gesture_1_e 20.784926834
+noise_0_s 0.72626542
+noise_0_e 6.97626542
+noise_1_s 12.022659114
+noise_1_e 18.272659114

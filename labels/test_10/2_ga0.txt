@@ -8,3 +8,5 @@ audio_0_s 8.7
 audio_0_e 9.1
 gesture_0_s 7.998691398
 gesture_0_e 9.539835208
+noise_0_s 0.86554435
+noise_0_e 7.11554435

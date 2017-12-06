@@ -6,3 +6,5 @@ abort_s 14.143081691
 abort_e 16.3
 gesture_0_s 7.374366331
 gesture_0_e 9.312316289
+noise_0_s 0.572969948
+noise_0_e 6.822969948

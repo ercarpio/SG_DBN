@@ -6,3 +6,5 @@ abort_s 14.906233751
 abort_e 17.2
 audio_0_s 8.0
 audio_0_e 8.4
+noise_0_s 1.247946406
+noise_0_e 7.497946406

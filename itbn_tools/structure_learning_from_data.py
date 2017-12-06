@@ -15,9 +15,9 @@ actions_dict = {'command_s': 0,     'command_e': 1,     'command': 2,
                 'reward_s': 6,      'reward_e': 7,      'reward': 8,
                 'abort_s': 9,       'abort_e': 10,      'abort': 11,
                 'audio_0_s': 12,    'audio_0_e': 13,    'audio_0': 14,
-                'audio_1_s': 15,    'audio_1_e': 16,    'audio_1': 17,
-                'gesture_0_s': 18,  'gesture_0_e': 19,  'gesture_0': 20,
-                'gesture_1_s': 21,  'gesture_1_e': 22,  'gesture_1': 23}
+                'audio_1_s': 12,    'audio_1_e': 13,    'audio_1': 14,
+                'gesture_0_s': 15,  'gesture_0_e': 16,  'gesture_0': 17,
+                'gesture_1_s': 15,  'gesture_1_e': 16,  'gesture_1': 17}
 # some sessions need to be corrected to deliver a reward after a correct response
 files_to_shorten = {'01': ['a0', 'g0', 'ga0', 'za0', 'zg0', 'zga0'],
                     '02': ['a0', 'g0', 'ga0', 'za0', 'zg0', 'zga0'],
@@ -69,7 +69,7 @@ for root, subFolders, files in os.walk('../labels/'):
 
 # create an empty array to store the final data
 counter = 0
-data_array = np.full((len(sessions), len(actions_dict)), -1.0)
+data_array = np.full((len(sessions), len(actions_dict) - 6), -1.0)
 for file, events in sessions.items():
     for event, value in events.items():
         data_array[counter][actions_dict[event]] = value
@@ -82,10 +82,8 @@ data = pd.DataFrame(data_array, columns=['command_s', 'command_e', 'command',
                                          'prompt_s', 'prompt_e', 'prompt',
                                          'reward_s', 'reward_e', 'reward',
                                          'abort_s', 'abort_e', 'abort',
-                                         'audio0_s', 'audio0_e', 'audio0',
-                                         'audio1_s', 'audio1_e', 'audio1',
-                                         'gesture0_s', 'gesture0_e', 'gesture0',
-                                         'gesture1_s', 'gesture1_e', 'gesture1'])
+                                         'audio_s', 'audio_e', 'audio',
+                                         'gesture_s', 'gesture_e', 'gesture'])
 
 # Create empty model and add event nodes
 model = ITBN()

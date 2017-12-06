@@ -10,3 +10,7 @@ audio_0_s 7.8
 audio_0_e 8.2
 audio_1_s 20.6
 audio_1_e 21
+noise_0_s 1.058778347
+noise_0_e 7.308778347
+noise_1_s 13.530772338
+noise_1_e 19.780772338

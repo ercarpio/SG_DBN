@@ -8,3 +8,7 @@ abort_s 25.505984441
 abort_e 27.2
 audio_1_s 19.3
 audio_1_e 19.8
+noise_0_s 0.343495045
+noise_0_e 6.593495045
+noise_1_s 12.695715016
+noise_1_e 18.945715016

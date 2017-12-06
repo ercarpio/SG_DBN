@@ -4,3 +4,7 @@ prompt_s 13.478371250
 prompt_e 15.5
 abort_s 25.846629585
 abort_e 27.5
+noise_0_s 0.348205859
+noise_0_e 6.598205859
+noise_1_s 12.62837125
+noise_1_e 18.87837125

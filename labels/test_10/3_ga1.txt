@@ -10,3 +10,7 @@ audio_1_s 19.8
 audio_1_e 20.3
 gesture_1_s 19.621301791
 gesture_1_e 21.362246147
+noise_0_s 0.563088126
+noise_0_e 6.813088126
+noise_1_s 12.891431351
+noise_1_e 19.141431351
