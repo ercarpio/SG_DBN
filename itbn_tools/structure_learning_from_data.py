@@ -1,27 +1,23 @@
 import os
 import numpy as np
+import pandas as pd
+import networkx as nx
+from pgmpy.models import IntervalTemporalBayesianNetwork as ITBN
+from pgmpy.estimators import HillClimbSearchITBN, BicScore
 
 EVENT_LABEL_IX = 0
 VALUE_IX = 1
 
 sessions = dict()
 # events that are found in the label files
-actions_dict = {'command_s': 0,
-                'command_e': 1,
-                'prompt_s': 2,
-                'prompt_e': 3,
-                'reward_s': 4,
-                'reward_e': 5,
-                'abort_s': 6,
-                'abort_e': 7,
-                'audio_0_s': 8,
-                'audio_0_e': 9,
-                'audio_1_s': 10,
-                'audio_1_e': 11,
-                'gesture_0_s': 12,
-                'gesture_0_e': 13,
-                'gesture_1_s': 14,
-                'gesture_1_e': 15}
+actions_dict = {'command_s': 0,     'command_e': 1,     'command': 2,
+                'prompt_s': 3,      'prompt_e': 4,      'prompt': 5,
+                'reward_s': 6,      'reward_e': 7,      'reward': 8,
+                'abort_s': 9,       'abort_e': 10,      'abort': 11,
+                'audio_0_s': 12,    'audio_0_e': 13,    'audio_0': 14,
+                'audio_1_s': 15,    'audio_1_e': 16,    'audio_1': 17,
+                'gesture_0_s': 18,  'gesture_0_e': 19,  'gesture_0': 20,
+                'gesture_1_s': 21,  'gesture_1_e': 22,  'gesture_1': 23}
 # some sessions need to be corrected to deliver a reward after a correct response
 files_to_shorten = {'01': ['a0', 'g0', 'ga0', 'za0', 'zg0', 'zga0'],
                     '02': ['a0', 'g0', 'ga0', 'za0', 'zg0', 'zga0'],
@@ -70,11 +66,50 @@ for root, subFolders, files in os.walk('../labels/'):
             data = line.split(' ')
             session_dict[data[EVENT_LABEL_IX]] = float(data[VALUE_IX])
         sessions[file_path] = session_dict
-# create an empty array
+
+# create an empty array to store the final data
 counter = 0
 data_array = np.full((len(sessions), len(actions_dict)), -1.0)
 for file, events in sessions.items():
     for event, value in events.items():
         data_array[counter][actions_dict[event]] = value
+        if event.endswith(ITBN.start_time_marker):
+            data_array[counter][actions_dict[event.replace(ITBN.start_time_marker, '')]] = 1
     counter += 1
-print(data_array)
+
+# Create DataFrame to hold data
+data = pd.DataFrame(data_array, columns=['command_s', 'command_e', 'command',
+                                         'prompt_s', 'prompt_e', 'prompt',
+                                         'reward_s', 'reward_e', 'reward',
+                                         'abort_s', 'abort_e', 'abort',
+                                         'audio0_s', 'audio0_e', 'audio0',
+                                         'audio1_s', 'audio1_e', 'audio1',
+                                         'gesture0_s', 'gesture0_e', 'gesture0',
+                                         'gesture1_s', 'gesture1_e', 'gesture1'])
+
+# Create empty model and add event nodes
+model = ITBN()
+model.add_nodes_from(data.columns.values)
+
+# Learn temporal relations from data
+model.learn_temporal_relationships(data)
+
+# Delete columns with temporal information
+data.fillna(0, inplace=True)
+for col in list(data.columns.values):
+    if col.endswith(ITBN.start_time_marker) or col.endswith(ITBN.end_time_marker):
+        data.drop(col, axis=1, inplace=True)
+
+# Learn model structure from data and temporal relations
+hc = HillClimbSearchITBN(data, scoring_method=BicScore(data))
+model = hc.estimate(start=model)
+
+# Learn model parameters
+# model.fit(list(data[model.nodes()]))
+for cpd in model.get_cpds():
+    print(cpd)
+
+# Draws and outputs resulting network
+model.draw_to_file("../output/itbn.png")
+os.system('gnome-open ../output/itbn.png')
+nx.write_gpickle(model, "../output/itbn.nx")
