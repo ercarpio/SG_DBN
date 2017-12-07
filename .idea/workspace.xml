@@ -2,208 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itbn_tools/noise_label_adder.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/haarcascade_frontalface_default.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/noise_subtraction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbn_arl.iml" afterPath="$PROJECT_DIR$/.idea/dbn_arl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itbn_tools/structure_learning_from_data.py" afterPath="$PROJECT_DIR$/itbn_tools/structure_learning_from_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/a0.txt" afterPath="$PROJECT_DIR$/labels/test_01/a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/a1.txt" afterPath="$PROJECT_DIR$/labels/test_01/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/g0.txt" afterPath="$PROJECT_DIR$/labels/test_01/g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/g1.txt" afterPath="$PROJECT_DIR$/labels/test_01/g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/ga0.txt" afterPath="$PROJECT_DIR$/labels/test_01/ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/ga1.txt" afterPath="$PROJECT_DIR$/labels/test_01/ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/none0.txt" afterPath="$PROJECT_DIR$/labels/test_01/none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/none1.txt" afterPath="$PROJECT_DIR$/labels/test_01/none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/z0.txt" afterPath="$PROJECT_DIR$/labels/test_01/z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/z1.txt" afterPath="$PROJECT_DIR$/labels/test_01/z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/za0.txt" afterPath="$PROJECT_DIR$/labels/test_01/za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/za1.txt" afterPath="$PROJECT_DIR$/labels/test_01/za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/zg0.txt" afterPath="$PROJECT_DIR$/labels/test_01/zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/zg1.txt" afterPath="$PROJECT_DIR$/labels/test_01/zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/zga0.txt" afterPath="$PROJECT_DIR$/labels/test_01/zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_01/zga1.txt" afterPath="$PROJECT_DIR$/labels/test_01/zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/a0.txt" afterPath="$PROJECT_DIR$/labels/test_02/a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/a1.txt" afterPath="$PROJECT_DIR$/labels/test_02/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/g0.txt" afterPath="$PROJECT_DIR$/labels/test_02/g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/g1.txt" afterPath="$PROJECT_DIR$/labels/test_02/g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/ga0.txt" afterPath="$PROJECT_DIR$/labels/test_02/ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/ga1.txt" afterPath="$PROJECT_DIR$/labels/test_02/ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/none0.txt" afterPath="$PROJECT_DIR$/labels/test_02/none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/none1.txt" afterPath="$PROJECT_DIR$/labels/test_02/none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/z0.txt" afterPath="$PROJECT_DIR$/labels/test_02/z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/z1.txt" afterPath="$PROJECT_DIR$/labels/test_02/z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/za0.txt" afterPath="$PROJECT_DIR$/labels/test_02/za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/za1.txt" afterPath="$PROJECT_DIR$/labels/test_02/za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/zg0.txt" afterPath="$PROJECT_DIR$/labels/test_02/zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/zg1.txt" afterPath="$PROJECT_DIR$/labels/test_02/zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/zga0.txt" afterPath="$PROJECT_DIR$/labels/test_02/zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_02/zga1.txt" afterPath="$PROJECT_DIR$/labels/test_02/zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/a0.txt" afterPath="$PROJECT_DIR$/labels/test_03/a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/a1.txt" afterPath="$PROJECT_DIR$/labels/test_03/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/g0.txt" afterPath="$PROJECT_DIR$/labels/test_03/g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/g1.txt" afterPath="$PROJECT_DIR$/labels/test_03/g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/ga0.txt" afterPath="$PROJECT_DIR$/labels/test_03/ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/none0.txt" afterPath="$PROJECT_DIR$/labels/test_03/none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/z0-1.txt" afterPath="$PROJECT_DIR$/labels/test_03/z0-1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/z0.txt" afterPath="$PROJECT_DIR$/labels/test_03/z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/z1.txt" afterPath="$PROJECT_DIR$/labels/test_03/z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/za0.txt" afterPath="$PROJECT_DIR$/labels/test_03/za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/za1.txt" afterPath="$PROJECT_DIR$/labels/test_03/za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/zg0.txt" afterPath="$PROJECT_DIR$/labels/test_03/zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/zg1.txt" afterPath="$PROJECT_DIR$/labels/test_03/zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/zga0.txt" afterPath="$PROJECT_DIR$/labels/test_03/zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_03/zga1.txt" afterPath="$PROJECT_DIR$/labels/test_03/zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/a0.txt" afterPath="$PROJECT_DIR$/labels/test_04/a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/a1.txt" afterPath="$PROJECT_DIR$/labels/test_04/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/g0.txt" afterPath="$PROJECT_DIR$/labels/test_04/g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/g1.txt" afterPath="$PROJECT_DIR$/labels/test_04/g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/ga0.txt" afterPath="$PROJECT_DIR$/labels/test_04/ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/ga1.txt" afterPath="$PROJECT_DIR$/labels/test_04/ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/none.txt" afterPath="$PROJECT_DIR$/labels/test_04/none.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/z0.txt" afterPath="$PROJECT_DIR$/labels/test_04/z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/z1.txt" afterPath="$PROJECT_DIR$/labels/test_04/z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/za0.txt" afterPath="$PROJECT_DIR$/labels/test_04/za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/za1.txt" afterPath="$PROJECT_DIR$/labels/test_04/za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/zg0.txt" afterPath="$PROJECT_DIR$/labels/test_04/zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/zg1.txt" afterPath="$PROJECT_DIR$/labels/test_04/zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/zga0.txt" afterPath="$PROJECT_DIR$/labels/test_04/zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_04/zga1.txt" afterPath="$PROJECT_DIR$/labels/test_04/zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/a0.txt" afterPath="$PROJECT_DIR$/labels/test_05/a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/a1.txt" afterPath="$PROJECT_DIR$/labels/test_05/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/g0.txt" afterPath="$PROJECT_DIR$/labels/test_05/g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/g1.txt" afterPath="$PROJECT_DIR$/labels/test_05/g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/ga0.txt" afterPath="$PROJECT_DIR$/labels/test_05/ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/ga1.txt" afterPath="$PROJECT_DIR$/labels/test_05/ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/none0.txt" afterPath="$PROJECT_DIR$/labels/test_05/none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/none1.txt" afterPath="$PROJECT_DIR$/labels/test_05/none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/none2.txt" afterPath="$PROJECT_DIR$/labels/test_05/none2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/none3.txt" afterPath="$PROJECT_DIR$/labels/test_05/none3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/z0.txt" afterPath="$PROJECT_DIR$/labels/test_05/z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/z1.txt" afterPath="$PROJECT_DIR$/labels/test_05/z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/za0.txt" afterPath="$PROJECT_DIR$/labels/test_05/za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/za1.txt" afterPath="$PROJECT_DIR$/labels/test_05/za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/zg0.txt" afterPath="$PROJECT_DIR$/labels/test_05/zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/zg1.txt" afterPath="$PROJECT_DIR$/labels/test_05/zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/zga0.txt" afterPath="$PROJECT_DIR$/labels/test_05/zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_05/zga1.txt" afterPath="$PROJECT_DIR$/labels/test_05/zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/a0.txt" afterPath="$PROJECT_DIR$/labels/test_06/a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/a1.txt" afterPath="$PROJECT_DIR$/labels/test_06/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/g0.txt" afterPath="$PROJECT_DIR$/labels/test_06/g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/g1.txt" afterPath="$PROJECT_DIR$/labels/test_06/g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/ga0.txt" afterPath="$PROJECT_DIR$/labels/test_06/ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/ga1.txt" afterPath="$PROJECT_DIR$/labels/test_06/ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/none0.txt" afterPath="$PROJECT_DIR$/labels/test_06/none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/none1.txt" afterPath="$PROJECT_DIR$/labels/test_06/none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/none2.txt" afterPath="$PROJECT_DIR$/labels/test_06/none2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/none3.txt" afterPath="$PROJECT_DIR$/labels/test_06/none3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/z0.txt" afterPath="$PROJECT_DIR$/labels/test_06/z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/z1.txt" afterPath="$PROJECT_DIR$/labels/test_06/z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/za0.txt" afterPath="$PROJECT_DIR$/labels/test_06/za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/za1.txt" afterPath="$PROJECT_DIR$/labels/test_06/za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/zg0.txt" afterPath="$PROJECT_DIR$/labels/test_06/zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/zg1.txt" afterPath="$PROJECT_DIR$/labels/test_06/zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/zga0.txt" afterPath="$PROJECT_DIR$/labels/test_06/zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_06/zga1.txt" afterPath="$PROJECT_DIR$/labels/test_06/zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none0.txt" afterPath="$PROJECT_DIR$/labels/test_07/none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none1.txt" afterPath="$PROJECT_DIR$/labels/test_07/none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none2.txt" afterPath="$PROJECT_DIR$/labels/test_07/none2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none3.txt" afterPath="$PROJECT_DIR$/labels/test_07/none3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none4.txt" afterPath="$PROJECT_DIR$/labels/test_07/none4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none5.txt" afterPath="$PROJECT_DIR$/labels/test_07/none5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none6.txt" afterPath="$PROJECT_DIR$/labels/test_07/none6.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none7.txt" afterPath="$PROJECT_DIR$/labels/test_07/none7.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none8.txt" afterPath="$PROJECT_DIR$/labels/test_07/none8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/none9.txt" afterPath="$PROJECT_DIR$/labels/test_07/none9.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_07/z0.txt" afterPath="$PROJECT_DIR$/labels/test_07/z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none0.txt" afterPath="$PROJECT_DIR$/labels/test_08/none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none1.txt" afterPath="$PROJECT_DIR$/labels/test_08/none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none2.txt" afterPath="$PROJECT_DIR$/labels/test_08/none2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none3.txt" afterPath="$PROJECT_DIR$/labels/test_08/none3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none4.txt" afterPath="$PROJECT_DIR$/labels/test_08/none4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none5.txt" afterPath="$PROJECT_DIR$/labels/test_08/none5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none6.txt" afterPath="$PROJECT_DIR$/labels/test_08/none6.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none7.txt" afterPath="$PROJECT_DIR$/labels/test_08/none7.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_08/none8.txt" afterPath="$PROJECT_DIR$/labels/test_08/none8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/none0_01.txt" afterPath="$PROJECT_DIR$/labels/test_09/none0_01.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/none0_03.txt" afterPath="$PROJECT_DIR$/labels/test_09/none0_03.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/none1_01.txt" afterPath="$PROJECT_DIR$/labels/test_09/none1_01.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/none1_02.txt" afterPath="$PROJECT_DIR$/labels/test_09/none1_02.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/none1_03.txt" afterPath="$PROJECT_DIR$/labels/test_09/none1_03.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/z0_01.txt" afterPath="$PROJECT_DIR$/labels/test_09/z0_01.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/z0_03.txt" afterPath="$PROJECT_DIR$/labels/test_09/z0_03.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/z1_01.txt" afterPath="$PROJECT_DIR$/labels/test_09/z1_01.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/z1_03.txt" afterPath="$PROJECT_DIR$/labels/test_09/z1_03.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_09/z2_02.txt" afterPath="$PROJECT_DIR$/labels/test_09/z2_02.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_a0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_a1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_g0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_g1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_ga0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_ga1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_none0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_none1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_none2.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_none2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_z0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_z1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_z2.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_z2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_z3.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_z3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_za0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_za1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_zg0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_zg1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_zga0.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/1_zga1.txt" afterPath="$PROJECT_DIR$/labels/test_10/1_zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_a0.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_a1.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_g0.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_g1.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_ga0.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_ga1.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_none1.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_none2.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_none2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_z2.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_z2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_z3.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_z3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_za0.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_za1.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_zg0.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_zg1.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_zg1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_zga0.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/2_zga1.txt" afterPath="$PROJECT_DIR$/labels/test_10/2_zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_a0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_a1.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_g0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_g1.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_ga0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_ga1.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_none0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_none1.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_none2.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_none2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_z0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_z0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_z1.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_z1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_z2.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_z2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_za0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_za0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_za1.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_za1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_zg0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_zg0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_zga0.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_zga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/3_zga1.txt" afterPath="$PROJECT_DIR$/labels/test_10/3_zga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_a0.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_a0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_a1.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_g0.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_g0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_g1.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_g1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_ga0.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_ga0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_ga1.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_ga1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_none0.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_none0.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_none1.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_none1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labels/test_10/4_none2.txt" afterPath="$PROJECT_DIR$/labels/test_10/4_none2.txt" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/constants.py" afterPath="$USER_HOME$/itbn_classifier/constants.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/dqn_packager_itbn.py" afterPath="$USER_HOME$/itbn_classifier/dqn_packager_itbn.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/generate_itbn_tfrecords.py" afterPath="$USER_HOME$/itbn_classifier/generate_itbn_tfrecords.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/itbn_tfrecord_rw.py" afterPath="$USER_HOME$/itbn_classifier/itbn_tfrecord_rw.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/itbn_trainer.py" afterPath="$USER_HOME$/itbn_classifier/itbn_trainer.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/noise_subtraction.py" afterPath="$USER_HOME$/itbn_classifier/noise_subtraction.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -249,13 +51,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="generate_itbn_tfrecords.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generate_itbn_tfrecords.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/itbn_classifier/generate_itbn_tfrecords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="114" column="76" lean-forward="false" selection-start-line="114" selection-start-column="76" selection-end-line="114" selection-end-column="76" />
               <folding>
-                <element signature="e#87#110#0" expanded="true" />
+                <element signature="e#416#884#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -264,34 +66,10 @@
       <file leaf-file-name="dqn_packager_itbn.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/itbn_classifier/dqn_packager_itbn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="333" column="65" lean-forward="true" selection-start-line="328" selection-start-column="8" selection-end-line="333" selection-end-column="65" />
+            <state relative-caret-position="219">
+              <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
               <folding>
                 <element signature="e#59#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="noise_subtraction.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/itbn_classifier/noise_subtraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding>
-                <element signature="e#54#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itbn_tfrecord_rw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/itbn_classifier/itbn_tfrecord_rw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#81#104#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -308,10 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>alpha</find>
-      <find>BATCH_SIZE</find>
-      <find>ts_it</find>
-      <find>prep_t</find>
       <find>switch_s</find>
       <find>switch_t</find>
       <find>print_function</find>
@@ -338,6 +112,10 @@
       <find>dtyp</find>
       <find>src_dir</find>
       <find>reduce_noise</find>
+      <find>farn</find>
+      <find>outfile</find>
+      <find>farna</find>
+      <find>farneback</find>
     </findStrings>
     <replaceStrings>
       <replace>Command</replace>
@@ -400,8 +178,8 @@
         <option value="$PROJECT_DIR$/itbn_tools/noise_label_adder.py" />
         <option value="$USER_HOME$/itbn_classifier/constants.py" />
         <option value="$USER_HOME$/itbn_classifier/itbn_tfrecord_rw.py" />
-        <option value="$USER_HOME$/itbn_classifier/noise_subtraction.py" />
         <option value="$USER_HOME$/itbn_classifier/haarcascade_frontalface_default.xml" />
+        <option value="$USER_HOME$/itbn_classifier/noise_subtraction.py" />
         <option value="$USER_HOME$/itbn_classifier/generate_itbn_tfrecords.py" />
         <option value="$USER_HOME$/itbn_classifier/dqn_packager_itbn.py" />
       </list>
@@ -414,10 +192,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1966" />
-    <option name="y" value="24" />
-    <option name="width" value="1321" />
-    <option name="height" value="743" />
+    <option name="x" value="1985" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -454,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -469,8 +249,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -931,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512078206007</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Second commit for itbn classifier&#10;dbn_arl labels updated">
+      <created>1512604347806</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1512604347806</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -949,10 +734,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1966" y="24" width="1857" height="1092" extended-state="6" />
+    <frame x="1985" y="-4" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21282476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20453289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.48977336" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1842932" sideWeight="0.5168601" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1049,7 +834,8 @@
     <MESSAGE value="Speech recognition file added&#10;ITBN missing temporal consistency check, save and load functions" />
     <MESSAGE value="Relocated itbn python scripts&#10;Added event time analyzer script" />
     <MESSAGE value="Event time analyzer script updated&#10;Corrected bug in label file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Event time analyzer script updated&#10;Corrected bug in label file" />
+    <MESSAGE value="Second commit for itbn classifier&#10;dbn_arl labels updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit for itbn classifier&#10;dbn_arl labels updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1210,13 +996,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/DynamicBayesianNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="629" column="19" lean-forward="false" selection-start-line="629" selection-start-column="12" selection-end-line="629" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dbn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1468,16 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/itbn_classifier/itbn_tfrecord_rw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/itbn_classifier/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -1486,32 +1255,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/itbn_classifier/generate_itbn_tfrecords.py">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/scipy/signal/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/itbn_classifier/noise_subtraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="92" column="28" lean-forward="false" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding>
-            <element signature="e#87#110#0" expanded="true" />
+            <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/itbn_classifier/itbn_tfrecord_rw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="114" column="21" lean-forward="false" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="21" />
+          <folding>
+            <element signature="e#81#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/itbn_classifier/dqn_packager_itbn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="333" column="65" lean-forward="true" selection-start-line="328" selection-start-column="8" selection-end-line="333" selection-end-column="65" />
+        <state relative-caret-position="219">
+          <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
           <folding>
             <element signature="e#59#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/itbn_classifier/noise_subtraction.py">
+    <entry file="file://$USER_HOME$/itbn_classifier/generate_itbn_tfrecords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="114" column="76" lean-forward="false" selection-start-line="114" selection-start-column="76" selection-end-line="114" selection-end-column="76" />
           <folding>
-            <element signature="e#54#72#0" expanded="true" />
+            <element signature="e#416#884#0" expanded="false" />
           </folding>
         </state>
       </provider>
