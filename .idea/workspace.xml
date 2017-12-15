@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef9d63f-d941-46a8-8b75-d3de26d3339e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/aud_classifier/aud_classifier.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/common/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/opt_classifier/opt_classifier.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/opt_classifier/opt_trainer.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/tools/__init__.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/constants.py" afterPath="$USER_HOME$/itbn_classifier/common/constants.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/dqn_packager_itbn.py" afterPath="$USER_HOME$/itbn_classifier/tools/dqn_packager_itbn.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/frame_params_explorer.py" afterPath="$USER_HOME$/itbn_classifier/tools/frame_params_explorer.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/generate_itbn_tfrecords.py" afterPath="$USER_HOME$/itbn_classifier/tools/generate_itbn_tfrecords.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/haarcascade_frontalface_default.xml" afterPath="$USER_HOME$/itbn_classifier/tools/haarcascade_frontalface_default.xml" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/itbn_classifier.py" afterPath="$USER_HOME$/itbn_classifier/common/itbn_classifier.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/itbn_pipeline.py" afterPath="$USER_HOME$/itbn_classifier/common/itbn_pipeline.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/itbn_tfrecord_rw.py" afterPath="$USER_HOME$/itbn_classifier/common/itbn_tfrecord_rw.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/itbn_trainer.py" afterPath="$USER_HOME$/itbn_classifier/common/itbn_trainer.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/itbn_validator.py" afterPath="$USER_HOME$/itbn_classifier/common/itbn_validator.py" />
-      <change type="MOVED" beforePath="$USER_HOME$/itbn_classifier/noise_subtraction.py" afterPath="$USER_HOME$/itbn_classifier/tools/noise_subtraction.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/aud_classifier/aud_validator.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/itbn_classifier/opt_classifier/opt_validator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py" afterPath="$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/itbn_classifier/opt_classifier/opt_trainer.py" afterPath="$USER_HOME$/itbn_classifier/opt_classifier/opt_trainer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,6 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/dbn_arl$generate_itbn_tfrecords.coverage" NAME="generate_itbn_tfrecords Coverage Results" MODIFIED="1512695501950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/itbn_classifier" />
+    <SUITE FILE_PATH="coverage/dbn_arl$opt_validator.coverage" NAME="opt_validator Coverage Results" MODIFIED="1513349815509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/itbn_classifier/opt_classifier" />
     <SUITE FILE_PATH="coverage/dbn_arl$noise_label_adder.coverage" NAME="noise_label_adder Coverage Results" MODIFIED="1512595761525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/itbn_tools" />
     <SUITE FILE_PATH="coverage/dbn_arl$toy_model_trainer_omega.coverage" NAME="toy_model_trainer_omega Coverage Results" MODIFIED="1508521014870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$model_trainer_omega.coverage" NAME="model_trainer_omega Coverage Results" MODIFIED="1509128697956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
@@ -38,6 +26,7 @@
     <SUITE FILE_PATH="coverage/dbn_arl$structure_learning_from_data.coverage" NAME="structure_learning_from_data Coverage Results" MODIFIED="1512594115441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/itbn_tools" />
     <SUITE FILE_PATH="coverage/dbn_arl$model_executor_eval_omega.coverage" NAME="model_executor_eval_omega Coverage Results" MODIFIED="1509133307664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/temporal_np_alteration" />
     <SUITE FILE_PATH="coverage/dbn_arl$cont_dbn.coverage" NAME="cont_dbn Coverage Results" MODIFIED="1507758556962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/dbn_arl$aud_validator.coverage" NAME="aud_validator Coverage Results" MODIFIED="1513350445065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/itbn_classifier/aud_classifier" />
     <SUITE FILE_PATH="coverage/dbn_arl$action_eval_data_loader.coverage" NAME="action_eval_data_loader Coverage Results" MODIFIED="1507905914749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$speech_recognition_test.coverage" NAME="speech_recognition_test Coverage Results" MODIFIED="1511303373421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/dbn_arl$dbn_cnn_interface.coverage" NAME="dbn_cnn_interface Coverage Results" MODIFIED="1507840757733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -55,7 +44,7 @@
     <SUITE FILE_PATH="coverage/dbn_arl$dataset_selector.coverage" NAME="dataset_selector Coverage Results" MODIFIED="1512999884406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/itbn_tools" />
     <SUITE FILE_PATH="coverage/dbn_arl$Doctests_in_HillClimbSearchDBN.coverage" NAME="Doctests in HillClimbSearchDBN Coverage Results" MODIFIED="1506658114335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators" />
     <SUITE FILE_PATH="coverage/dbn_arl$data_cleaner_simple.coverage" NAME="data_cleaner_simple Coverage Results" MODIFIED="1507769147410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/dbn_arl$aud_trainer.coverage" NAME="aud_trainer Coverage Results" MODIFIED="1513213207353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/itbn_classifier/aud_classifier" />
+    <SUITE FILE_PATH="coverage/dbn_arl$aud_trainer.coverage" NAME="aud_trainer Coverage Results" MODIFIED="1513293507878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/itbn_classifier/aud_classifier" />
     <SUITE FILE_PATH="coverage/dbn_arl$ITBN_testing.coverage" NAME="ITBN_testing Coverage Results" MODIFIED="1512497273193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="DatabaseView">
@@ -71,15 +60,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="opt_validator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/itbn_classifier/opt_classifier/opt_validator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="45" column="16" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="45" selection-end-column="16" />
+              <folding>
+                <element signature="e#17#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opt_classifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/itbn_classifier/opt_classifier/opt_classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="opt_trainer.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/itbn_classifier/opt_classifier/opt_trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="-2017">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#294#516#0" expanded="false" />
-                <element signature="e#1426#2052#0" expanded="false" />
+                <element signature="e#2140#2766#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -96,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dtyp</find>
       <find>src_dir</find>
       <find>reduce_noise</find>
       <find>farn</find>
@@ -126,6 +134,7 @@
       <find>WINDOW_PROBABILITIES</find>
       <find>variable_scope</find>
       <find>train_ph</find>
+      <find>aud</find>
     </findStrings>
     <replaceStrings>
       <replace>Command</replace>
@@ -141,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/temporal_alteration/dbn_cnn_interface.py" />
-        <option value="/usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/__init__.py" />
         <option value="$USER_HOME$/temporal_alteration/model_executor_eval_omega.py" />
         <option value="$USER_HOME$/temporal_alteration/dqn_model_omega.py" />
         <option value="$USER_HOME$/temporal_alteration/model_trainer_omega.py" />
@@ -189,8 +196,10 @@
         <option value="$USER_HOME$/itbn_classifier/frame_params_explorer.py" />
         <option value="$USER_HOME$/itbn_classifier/tools/dqn_packager_itbn.py" />
         <option value="$USER_HOME$/itbn_classifier/aud_classifier/aud_classifier.py" />
-        <option value="$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py" />
         <option value="$USER_HOME$/itbn_classifier/opt_classifier/opt_classifier.py" />
+        <option value="$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py" />
+        <option value="$USER_HOME$/itbn_classifier/opt_classifier/opt_validator.py" />
+        <option value="$USER_HOME$/itbn_classifier/aud_classifier/aud_validator.py" />
         <option value="$USER_HOME$/itbn_classifier/opt_classifier/opt_trainer.py" />
       </list>
     </option>
@@ -259,11 +268,6 @@
             <path>
               <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
               <item name="itbn_classifier" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dbn_arl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itbn_classifier" type="462c0819:PsiDirectoryNode" />
               <item name="opt_classifier" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -303,8 +307,8 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/itbn_classifier/opt_classifier" />
       <recent name="$USER_HOME$/itbn_classifier/aud_classifier" />
+      <recent name="$USER_HOME$/itbn_classifier/opt_classifier" />
       <recent name="$USER_HOME$/itbn_classifier" />
       <recent name="$USER_HOME$/temporal_np_alteration/omega_0" />
       <recent name="$USER_HOME$/temporal_np_alteration" />
@@ -322,9 +326,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.opt_trainer">
+  <component name="RunManager" selected="Python.aud_validator">
     <configuration name="aud_trainer" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
-      <output_file path="$USER_HOME$/itbn_classifier/aud_classifier/logs/out.txt" is_save="true" />
+      <output_file path="$USER_HOME$/itbn_classifier/aud_classifier/logs/out_20171214.txt" is_save="true" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -338,6 +342,24 @@
       <module name="itbn_classifier" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="aud_validator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/itbn_classifier/aud_classifier" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="itbn_classifier" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/itbn_classifier/aud_classifier/aud_validator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,24 +400,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="dataset_selector" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/itbn_tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dbn_arl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/itbn_tools/dataset_selector.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="frame_params_explorer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,26 +418,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="itbn_trainer" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
-      <output_file path="$USER_HOME$/itbn_classifier/logs/out.txt" is_save="true" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/itbn_classifier" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="itbn_classifier" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/itbn_classifier/common/itbn_trainer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="opt_trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="opt_trainer" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -447,6 +432,24 @@
       <module name="itbn_classifier" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/itbn_classifier/opt_classifier/opt_trainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="opt_validator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/itbn_classifier/opt_classifier" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="itbn_classifier" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/itbn_classifier/opt_classifier/opt_validator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -473,19 +476,19 @@
       <item index="0" class="java.lang.String" itemvalue="Python.data_cleaner" />
       <item index="1" class="java.lang.String" itemvalue="Python.data_cleaner_simple" />
       <item index="2" class="java.lang.String" itemvalue="Python.real_dbn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.itbn_trainer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dataset_selector" />
-      <item index="5" class="java.lang.String" itemvalue="Python.frame_params_explorer" />
-      <item index="6" class="java.lang.String" itemvalue="Python.aud_trainer" />
-      <item index="7" class="java.lang.String" itemvalue="Python.opt_trainer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.frame_params_explorer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.aud_trainer" />
+      <item index="5" class="java.lang.String" itemvalue="Python.opt_trainer" />
+      <item index="6" class="java.lang.String" itemvalue="Python.aud_validator" />
+      <item index="7" class="java.lang.String" itemvalue="Python.opt_validator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.opt_trainer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.aud_trainer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.frame_params_explorer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.itbn_trainer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dataset_selector" />
+        <item index="0" class="java.lang.String" itemvalue="Python.aud_validator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.opt_validator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.aud_trainer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.opt_trainer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.frame_params_explorer" />
       </list>
     </recent_temporary>
   </component>
@@ -762,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513127513317</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="OPT and AUD cnn added">
+      <created>1513268583758</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1513268583758</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -781,7 +791,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2039801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.48977336" order="9" side_tool="false" content_ui="tabs" />
@@ -793,8 +802,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.249309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" x="1931" y="496" width="1325" height="545" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5370269" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41151834" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" x="1931" y="496" width="1325" height="545" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20176893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -810,21 +819,21 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35183245" sideWeight="0.5129906" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1842932" sideWeight="0.5168601" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18440464" sideWeight="0.48369265" order="11" side_tool="false" content_ui="tabs" x="634" y="24" width="1286" height="1056" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47839832" sideWeight="0.49474847" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36230367" sideWeight="0.48313984" order="11" side_tool="false" content_ui="tabs" x="634" y="24" width="1286" height="1056" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17169501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2039801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49806523" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.249309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28029504" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" x="1931" y="496" width="1325" height="545" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33296764" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41151834" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" x="1931" y="496" width="1325" height="545" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20176893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -882,7 +891,8 @@
     <MESSAGE value="Event time analyzer script updated&#10;Corrected bug in label file" />
     <MESSAGE value="Second commit for itbn classifier&#10;dbn_arl labels updated" />
     <MESSAGE value="Generated ITBN tfrecords&#10;Classifier trainer first approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated ITBN tfrecords&#10;Classifier trainer first approach" />
+    <MESSAGE value="OPT and AUD cnn added" />
+    <option name="LAST_COMMIT_MESSAGE" value="OPT and AUD cnn added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1043,7 +1053,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="455" />
+      <option name="time" value="461" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1054,24 +1064,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/action_eval_data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="96" column="47" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="96" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itbn_tools/speech_recognition_test.py" />
-    <entry file="file://$PROJECT_DIR$/itbn_tools/speech_recognition_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labels/test_01/g0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1133,13 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2360">
-          <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/estimators/HillClimbSearchITBN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
@@ -1196,13 +1181,6 @@
             <element signature="e#1310#1428#0" expanded="false" />
             <element signature="e#3871#4280#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itbn_tools/dataset_selector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1347,18 +1325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/itbn_classifier/tools/frame_params_explorer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="e#639#2098#0" expanded="false" />
-            <element signature="e#2181#3301#0" expanded="false" />
-            <element signature="e#3969#4246#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/itbn_classifier/aud_classifier/logs/out.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -1367,37 +1333,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/itbn_classifier/opt_classifier/opt_classifier.py">
+    <entry file="file://$USER_HOME$/temporal_alteration/toy_model_eval_omega.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        <state relative-caret-position="42">
+          <caret line="80" column="60" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/itbn_classifier/tools/frame_params_explorer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="166" column="93" lean-forward="true" selection-start-line="165" selection-start-column="8" selection-end-line="166" selection-end-column="93" />
+          <folding>
+            <element signature="e#639#2098#0" expanded="false" />
+            <element signature="e#2181#3301#0" expanded="false" />
+            <element signature="e#3969#4246#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itbn_tools/dataset_selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="83" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pgmpy-0.1.3-py2.7.egg/pgmpy/models/IntervalTemporalBayesianNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="323" column="4" lean-forward="false" selection-start-line="323" selection-start-column="4" selection-end-line="338" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2825">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#26#0" expanded="true" />
+            <element signature="e#2608#3234#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/itbn_classifier/aud_classifier/aud_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/itbn_classifier/common/itbn_trainer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-3543">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding>
-            <element signature="e#404#649#0" expanded="false" />
             <element signature="e#2096#3216#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/itbn_classifier/aud_classifier/aud_trainer.py">
+    <entry file="file://$USER_HOME$/itbn_classifier/opt_classifier/opt_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/itbn_classifier/aud_classifier/aud_validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="96" column="18" lean-forward="false" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+          <folding>
+            <element signature="e#17#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/itbn_classifier/opt_classifier/opt_validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="45" selection-end-column="16" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
           </folding>
@@ -1406,12 +1430,10 @@
     </entry>
     <entry file="file://$USER_HOME$/itbn_classifier/opt_classifier/opt_trainer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="-2017">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#294#516#0" expanded="false" />
-            <element signature="e#1426#2052#0" expanded="false" />
+            <element signature="e#2140#2766#0" expanded="false" />
           </folding>
         </state>
       </provider>
