@@ -11,7 +11,9 @@ VALUE_IX = 1
 sessions = dict()
 # events that are found in the label files
 actions_dict = {'command_s': 0,     'command_e': 1,     'command': 2,
+                'noise_0_s': 0,     'noise_0_e': 1,     'noise_0': 2,
                 'prompt_s': 3,      'prompt_e': 4,      'prompt': 5,
+                'noise_1_s': 3,     'noise_1_e': 4,     'noise_1': 5,
                 'reward_s': 6,      'reward_e': 7,      'reward': 8,
                 'abort_s': 9,       'abort_e': 10,      'abort': 11,
                 'audio_0_s': 12,    'audio_0_e': 13,    'audio_0': 14,
