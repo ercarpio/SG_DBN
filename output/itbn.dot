@@ -1,0 +1,12 @@
+strict digraph {
+command [weight=None]
+reward [weight=None]
+prompt [weight=None]
+response [weight=None]
+abort [weight=None]
+abort -> prompt [weight=None, label=" b "]
+prompt -> command [weight=None, label=" b "]
+reward -> prompt [weight=None, label=" b "]
+reward -> command [weight=None, label=" b "]
+reward -> response [weight=None, label=" b,o "]
+}
